@@ -1,0 +1,26 @@
+#Max age (in seconds) a control point can have. Older points expire, so a faction's score decays unless it keeps holding the objective.
+# Default: 600
+# Range: > 1
+controlPointLifetime = 600
+#How often (in seconds) points are awarded to the factions holding the core area.
+# Default: 10
+# Range: > 1
+controlPointInterval = 10
+#How often (in seconds) the system checks whether to generate rewards.
+# Default: 30
+# Range: > 1
+rewardsCheckInterval = 30
+#Fraction of points a faction loses when a member dies in the Kill Zone (0.5 = 50%).
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+lossPercentage = 0.5
+#The maximum raw amount of points that can be lost in a single kill.
+# Default: 100
+# Range: > 0
+maxPointLoss = 100
+#How much of the lost points are transferred to the killer's faction (0.5 = 50% transfer).
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+conversionPercentage = 0.5
+#Disables the /objective listRewards command for non-operators.
+disableRewardInfo = false

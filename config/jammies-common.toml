@@ -1,0 +1,3 @@
+["Jammies Config"]
+	#Allow Jams to open when right-clicking them
+	allowRightClickOpen = true

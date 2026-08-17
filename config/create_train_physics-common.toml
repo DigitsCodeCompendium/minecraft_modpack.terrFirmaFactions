@@ -1,0 +1,6 @@
+#Whether trains need fuel to function
+requireFuel = true
+#Power of an engine in kW
+# Default: 200
+# Range: > 0
+enginePower = 200

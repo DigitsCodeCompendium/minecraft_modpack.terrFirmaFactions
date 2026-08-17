@@ -1,0 +1,34 @@
+#
+# If a sound should be played when a preview finishes generating
+#
+dingWhenGenerated = true
+#
+# If a progress bar should be displayed while a preview is generating
+#
+displayGenerationProgress = true
+#
+# The maximum portion of the screen the world preview may take up
+#
+# The preview will always fit into the largest square between this portion of the screen width
+# and the majority of the screen height
+#
+# Default: 0.5
+# Range: 0.25 ~ 0.75
+maxPreviewWidth = 0.5
+#
+# If parallel generation should be forcefully disabled, regardless of a visualizer's request
+#
+disableParallelGeneration = false
+#
+# The maximum number of parallel draw operations that may occur if parallel generation is enabled
+#
+# Default: 5
+# Range: > 2
+maximumNumberOfParallelDrawOperations = 5
+#
+# The absolute maximum number of microseconds the image generator will process a single pixel before
+# cancelling the operation, filling the pixel with a default color, and logging an error
+#
+# Default: 1000
+# Range: > 1
+absoluteMaximumMicrosToDrawPixel = 1000

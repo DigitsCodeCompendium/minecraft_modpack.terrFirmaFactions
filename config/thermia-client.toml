@@ -1,0 +1,107 @@
+[ui]
+	#Toggle all UI widgets
+	globalUiToggle = true
+	#Scale of all UI elements
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	globalUiScale = 1.0
+	#X offset for all UI elements
+	# Default: 0
+	# Range: > -2147483648
+	globalUiOffsetX = 0
+	#Y offset for all UI elements
+	# Default: 0
+	# Range: > -2147483648
+	globalUiOffsetY = 0
+
+	[ui.temperature]
+		#Toggle temperature UI widget
+		temperatureUiToggle = true
+		#Scale of temperature UI widget
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		temperatureUiScale = 1.0
+		#X offset of temperature UI widget
+		# Default: 0
+		# Range: > -2147483648
+		temperatureUiOffsetX = 0
+		#Y offset of temperature UI widget
+		# Default: -38
+		# Range: > -2147483648
+		temperatureUiOffsetY = -38
+
+	[ui.wind]
+		#Toggle wind UI widget
+		windUiToggle = true
+		#Toggle if widget is smaller than temperature
+		windUISubToggle = true
+		#Scale of wind UI widget
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		windUiScale = 1.0
+		#X offset of wind UI widget
+		# Default: 0
+		# Range: > -2147483648
+		windUiOffsetX = 0
+		#Y offset of wind UI widget
+		# Default: -48
+		# Range: > -2147483648
+		windUiOffsetY = -48
+
+	[ui.solar]
+		#Toggle solar UI widget
+		solarUiToggle = true
+		#Toggle if widget is smaller than temperature
+		solarUISubToggle = true
+		#Scale of solar UI widget
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		solarUiScale = 1.0
+		#X offset of solar UI widget
+		# Default: 7
+		# Range: > -2147483648
+		solarUiOffsetX = 7
+		#Y offset of solar UI widget
+		# Default: -48
+		# Range: > -2147483648
+		solarUiOffsetY = -48
+
+	[ui.wetness]
+		#Toggle wetness UI widget
+		wetnessUiToggle = true
+		#Toggle if widget is smaller than temperature
+		wetnessUISubToggle = true
+		#Scale of wetness UI widget
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		wetnessUiScale = 1.0
+		#X offset of wetness UI widget
+		# Default: -7
+		# Range: > -2147483648
+		wetnessUiOffsetX = -7
+		#Y offset of wetness UI widget
+		# Default: -48
+		# Range: > -2147483648
+		wetnessUiOffsetY = -48
+
+	[effect.hypo]
+		#Enable or disable hypothermia rendering
+		enableHypoRender = true
+		#Hypothermia effect intensity
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		hypoEffectIntensity = 1.0
+
+	[effect.hyper]
+		#Enable or disable hyperthermia rendering
+		enableHyperRender = true
+		#Hyperthermia effect intensity
+		# Default: 1.0
+		# Range: 0.5 ~ 2.0
+		hyperEffectIntensity = 1.0
+
+[client_misc]
+	#Enable debug information
+	enableDebug = false
+	#Enable cape render
+	enableCape = true

@@ -1,0 +1,94 @@
+#The maximum amount of members a faction can have.
+# Default: 10
+# Range: > 1
+maxFactionSize = 10
+#The maximum amount of factions an alliances can contain.
+# Default: 3
+# Range: > 1
+maxAllianceSize = 3
+#Enables friendly fire, overwriting faction settings.
+forceFriendlyFire = false
+#Minimum length for faction abbreviations.
+# Default: 3
+# Range: > 1
+factionAbbreviationMinLength = 3
+#Maximum length for faction abbreviations.
+# Default: 3
+# Range: > 1
+factionAbbreviationMaxLength = 3
+#Minimum length for alliance abbreviations.
+# Default: 3
+# Range: > 1
+allianceAbbreviationMinLength = 3
+#Maximum length for alliance abbreviations.
+# Default: 3
+# Range: > 1
+allianceAbbreviationMaxLength = 3
+#Allow factions to set an abbreviation
+enableAbbreviation = true
+#Allow factions to change their abbreviation
+allowAbbreviationChange = false
+#Cost in points per chunk
+# Default: 1
+# Range: > 0
+chunkCost = 1
+#How many core chunks players should be allowed to own.
+# Default: 9
+# Range: > 0
+coreChunks = 9
+#If set to true, points are refunded when a chunk is unclaimed or set as an admin chunk
+refundCostUnclaim = false
+#Points gained against a faction per kill.
+#To unclaim one chunk, chunkCost points are used and pointsPerStolenChunk are giving to the killing faction.
+# Default: 1
+# Range: > 0
+pointsPerKill = 1
+#How many claim points are given to a faction for taking a chunk from another faction
+# Default: 1
+# Range: > 0
+pointsPerStolenChunk = 1
+#The interval in seconds in which factions are given points to be used for claiming chunks
+#After every interval, a point is given for every online member of the faction.
+# Default: 600
+# Range: > 0
+pointGenerationInterval = 600
+#How many points are given per interval
+# Default: 1
+# Range: > 0
+pointGenerationAmount = 1
+#The color of admin claims on the map
+# Default: 16711935
+# Range: 0 ~ 16777215
+adminColor = 16711935
+#The color of core claims on the map
+# Default: 16777215
+# Range: 0 ~ 16777215
+coreColor = 16777215
+#The restrictions set for non-members in admin-claimed chunks
+#Possible values: BREAK_BLOCK, PLACE_BLOCK, RIGHT_CLICK_BLOCK, LEFT_CLICK_BLOCK, RIGHT_CLICK_ITEM, INTERACT_ENTITY, MOB_GRIEFING_DAMAGE, EXPLOSION_DAMAGE, PISTON_MOVE, USE_BUCKET, PLAYER_ATTACK
+#'PLAYER_ATTACK' prevents players from attacking entities.
+adminClaimRestrictions = ["BREAK_BLOCK", "PLACE_BLOCK", "RIGHT_CLICK_BLOCK", "LEFT_CLICK_BLOCK", "RIGHT_CLICK_ITEM", "INTERACT_ENTITY", "USE_BUCKET", "PLAYER_ATTACK"]
+#The restrictions set for non-members in core-claimed chunks
+#Possible values: BREAK_BLOCK, PLACE_BLOCK, RIGHT_CLICK_BLOCK, LEFT_CLICK_BLOCK, RIGHT_CLICK_ITEM, INTERACT_ENTITY, MOB_GRIEFING_DAMAGE, EXPLOSION_DAMAGE, PISTON_MOVE, USE_BUCKET, PLAYER_ATTACK
+coreClaimRestrictions = ["BREAK_BLOCK", "PLACE_BLOCK", "RIGHT_CLICK_BLOCK", "LEFT_CLICK_BLOCK", "RIGHT_CLICK_ITEM", "INTERACT_ENTITY", "USE_BUCKET"]
+#The restrictions set for non-members in faction-claimed chunks
+#Possible values: BREAK_BLOCK, PLACE_BLOCK, RIGHT_CLICK_BLOCK, LEFT_CLICK_BLOCK, RIGHT_CLICK_ITEM, INTERACT_ENTITY, MOB_GRIEFING_DAMAGE, EXPLOSION_DAMAGE, PISTON_MOVE, USE_BUCKET, PLAYER_ATTACK
+factionClaimRestrictions = ["BREAK_BLOCK", "PLACE_BLOCK", "RIGHT_CLICK_BLOCK", "LEFT_CLICK_BLOCK", "RIGHT_CLICK_ITEM", "INTERACT_ENTITY", "USE_BUCKET"]
+#The dimensions allowed for core (player) claims.
+coreClaimDimensions = ["minecraft:overworld"]
+#The dimensions allowed for faction claims.
+factionClaimDimensions = ["minecraft:overworld"]
+#The base amount of chunks a faction can claim
+# Default: 100
+# Range: > 0
+factionBaseClaimLimit = 100
+#The additional amount of chunks a faction can claim per member.
+#The final limit of claimable chunks per faction is (factionBaseClaimLimit + factionAdditionalClaimLimitPerMember * factionMembers)
+# Default: 100
+# Range: > 0
+factionAdditionalClaimLimitPerMember = 100
+#How many chunks should be sent per claim update packet.
+#Set to a higher amount if mods such as XLPackets are installed.
+# Default: 1000
+# Range: > 10
+maxChunksPerPacket = 1000

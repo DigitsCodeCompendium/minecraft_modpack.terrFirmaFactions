@@ -1,0 +1,22 @@
+#Show the faction abbreviation (if available) instead of the name in the tag above player heads.
+showFactionAbbreviation = false
+#Show the alliance abbreviation (if available) instead of the name in the tag above player heads.
+showAllianceAbbreviation = true
+#The thickness of the stroke around claimed chunks
+# Default: 1.5
+# Range: 0.0 ~ 2.0
+chunkBorderWidth = 1.5
+#The opacity of the stroke around claimed chunks
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+chunkBorderOpacity = 0.0
+#The opacity of the color above claimed chunks
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+chunkOverlayOpacity = 0.25
+#The grid size (in chunks) used to split massive claims on the map.
+#Lower values (e.g. 16) prevent large claims from disappearing on the minimap.
+#Higher values (e.g. 64) increase performance.
+# Default: 32
+# Range: 1 ~ 256
+claimMergeGridSize = 32

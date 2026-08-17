@@ -1,0 +1,17 @@
+{
+  "general": {
+    "permissionLevel": 2,
+    "compactUsabilityHints": false,
+    "hudOffsetX": 0,
+    "hudOffsetY": 0
+  },
+  "modifyPlayerSpawnPower": {
+    "radius": 6400,
+    "horizontalBlockCheckInterval": 64,
+    "verticalBlockCheckInterval": 64
+  },
+  "debug": {
+    "builtinRegistries": false,
+    "dynamicRegistries": false
+  }
+}

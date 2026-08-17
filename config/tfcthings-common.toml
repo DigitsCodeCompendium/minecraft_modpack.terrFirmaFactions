@@ -1,0 +1,260 @@
+#Item Configuration
+[items]
+
+	#Snow Shoes Settings
+	[items.snowShoes]
+		#The distance in centimeters walked through snow required to apply one damage to the shoes.
+		#100 cm = 1 block. Setting to 0 will disable the snow shoes from taking damaged.
+		# Default: 500
+		# Range: > 0
+		damageDistance = 500
+		#The percentage of the TFC slowdown effect that the snow shoes will negate.
+		#1 = remove all the slowdown effects of snow.
+		#0 = snow shoes have no effect on movement speed.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		shoePower = 1.0
+
+	#Hiking Boots Settings
+	[items.hikingBoots]
+		#The distance in centimeters walked through plants required to apply one damage to the boots.
+		#100 cm = 1 block. Setting to 0 will disable the hiking boots from taking damaged.
+		# Default: 500
+		# Range: > 0
+		damageDistance = 500
+		#The percentage of the TFC plant slowdown effect that the hiking boots will negate.
+		#1 = remove all the slowdown effects of snow.
+		#0 = snow shoes have no effect on movement speed.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		bootPower = 1.0
+
+	#Crampon Settings
+	[items.crampons]
+		#The distance in centimeters walked on ice required to apply one damage to the crampons.
+		#100 cm = 1 block. Setting to 0 will disable the crampons from taking damaged.
+		# Default: 500
+		# Range: > 0
+		damageDistance = 500
+
+	#Bear Trap Settings
+	[items.bearTrap]
+		#Percent chance for a bear trap to break when harvested after being activated.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		breakChance = 0.1
+		#The percentage chance (0-100) for a predator to break out of a bear trap per in-game day (24000 ticks).
+		#0 = no breakouts. 100 = guaranteed breakout within one in-game day (~20 minutes real-time).
+		#Default 25 = approximately 25% chance per day, expected ~4 in-game days to break out.
+		# Default: 25
+		# Range: 0 ~ 100
+		breakoutChance = 25
+		#The duration of the debuffs applied by the bear trap in ticks.
+		#Set to 0 to disable the debuffs.
+		# Default: 1000
+		# Range: > 0
+		debuffDuration = 1000
+		#The fraction of an entity's health that is dealt as damage when stepping in a trap.
+		#E.g. 3 = 1/3 current health dealt as damage.
+		#Less than 1 will deal more damage than current health
+		#Set to 0 to do no damage.
+		# Default: 3.0
+		# Range: 0.0 ~ 20.0
+		healthCut = 3.0
+		#The amount of fixed damage points dealt by a bear trap.
+		#This will override the fractional health cut setting if set to a value greater than 0.
+		# Default: 0.0
+		# Range: 0.0 ~ 1000000.0
+		fixedDamage = 0.0
+
+	#Snare Settings
+	[items.snare]
+		#The interval in ticks between catch attempts when the snare is baited.
+		#Lower values check more frequently. 1200 ticks = 1 minute.
+		# Default: 2400
+		# Range: 20 ~ 72000
+		checkInterval = 2400
+		#The base chance (0-1) to catch an animal on each check.
+		#The actual chance increases slightly over time while baited.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		baseCatchChance = 0.05
+		#If true, disables AI while an animal is captured so it cannot escape.
+		#If false, the snare will still pin the entity to the block each tick, but its AI remains enabled.
+		holdNoAi = false
+		#If true, captured animals are made invulnerable while trapped to prevent accidental kills.
+		preventDamage = false
+
+	#Rope Bridge Settings
+	[items.ropeBridge]
+		#The maximum length of a rope bridge that can be thrown.
+		# Default: 100
+		# Range: 1 ~ 256
+		maxLength = 100
+		#Maximum allowed angle (in degrees) between the throw direction and the bridge axis when placing. Lower values require a more precise straight throw. 0 = perfectly straight only, 44 = any angle accepted.
+		# Default: 4.0
+		# Range: 0.0 ~ 30.0
+		maxPlacementAngle = 4.0
+
+	#Rope Ladder Settings
+	[items.ropeLadder]
+		#The maximum length of a rope ladder that can be deployed.
+		# Default: 64
+		# Range: 1 ~ 128
+		maxLength = 64
+
+	#Rope Javelin Settings
+	[items.ropeJavelin]
+		#The maximum length of rope attached to the javelin.
+		# Default: 32
+		# Range: 1 ~ 64
+		ropeLength = 32
+		#The strength of the pull when reeling in with the rope javelin.
+		#Higher values pull the entity faster.
+		# Default: 1.0
+		# Range: 0.1 ~ 5.0
+		pullStrength = 1.0
+
+	#Hook Javelin Settings
+	[items.hookJavelin]
+		#The maximum length of rope for the hook javelin grapple.
+		# Default: 32
+		# Range: 10 ~ 64
+		maxRopeLength = 32
+		#The amount of rope retracted per right-click while airborne.
+		#Higher values let the player climb faster.
+		# Default: 0.5
+		# Range: 0.1 ~ 2.0
+		retractAmount = 0.5
+
+	#Sling Settings
+	[items.sling]
+		#Damage multiplier when hitting predators or skeletons with the sling.
+		# Default: 2.0
+		# Range: 1.0 ~ 10.0
+		predatorMultiplier = 2.0
+		#The maximum power a fully charged sling can reach.
+		# Default: 12
+		# Range: 1 ~ 100
+		maxPower = 12
+		#The number of ticks to reach max power. Lower = faster charge.
+		# Default: 70
+		# Range: 1 ~ 200
+		chargeSpeed = 70
+
+	#Whetstone / Honing Steel Settings
+	[items.whetstone]
+		#Sharpness charges added per whetstone use.
+		# Default: 1
+		# Range: 1 ~ 256
+		chargesPerWhetstone = 1
+		#Sharpness charges added per honing steel use.
+		# Default: 2
+		# Range: 1 ~ 256
+		chargesPerHoningSteel = 2
+		#Sharpness charges added per diamond honing steel use.
+		# Default: 4
+		# Range: 1 ~ 256
+		chargesPerDiamondHoningSteel = 4
+		#Use time in ticks for whetstone sharpening.
+		# Default: 40
+		# Range: 0 ~ 72000
+		ticksPerWhetstoneUse = 40
+		#Use time in ticks for honing steel sharpening.
+		# Default: 30
+		# Range: 0 ~ 72000
+		ticksPerHoningSteelUse = 30
+		#Use time in ticks for diamond honing steel sharpening.
+		# Default: 20
+		# Range: 0 ~ 72000
+		ticksPerDiamondHoningSteelUse = 20
+		#Maximum sharpness charges a tool can hold from whetstone use.
+		# Default: 50
+		# Range: 1 ~ 1024
+		maxChargesWhetstone = 50
+		#Maximum sharpness charges a tool can hold from honing steel use.
+		# Default: 100
+		# Range: 1 ~ 1024
+		maxChargesHoningSteel = 100
+		#Maximum sharpness charges a tool can hold from diamond honing steel use.
+		# Default: 200
+		# Range: 1 ~ 1024
+		maxChargesDiamondHoningSteel = 200
+		#Flat attack damage bonus (hearts) per hit at Tier 1 sharpness (1 to maxChargesWhetstone charges).
+		#Comparable in feel to Minecraft Sharpness I.
+		# Default: 0.5
+		# Range: 0.0 ~ 20.0
+		tier1WeaponBonus = 0.5
+		#Flat attack damage bonus (hearts) per hit at Tier 2 sharpness (maxChargesWhetstone+1 to maxChargesHoningSteel charges).
+		#Comparable in feel to Minecraft Sharpness III.
+		# Default: 1.0
+		# Range: 0.0 ~ 20.0
+		tier2WeaponBonus = 1.0
+		#Flat attack damage bonus (hearts) per hit at Tier 3 sharpness (maxChargesHoningSteel+1 to maxChargesDiamondHoningSteel charges).
+		#Comparable in feel to Minecraft Sharpness V.
+		# Default: 1.5
+		# Range: 0.0 ~ 20.0
+		tier3WeaponBonus = 1.5
+		#Mining speed bonus added when the tool has Tier 1 sharpness (1 to maxChargesWhetstone charges).
+		#Default matches vanilla Efficiency I (+2).
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		tier1MiningBonus = 2.0
+		#Mining speed bonus added when the tool has Tier 2 sharpness (maxChargesWhetstone+1 to maxChargesHoningSteel charges).
+		#Default matches vanilla Efficiency III (+10).
+		# Default: 10.0
+		# Range: 0.0 ~ 100.0
+		tier2MiningBonus = 10.0
+		#Mining speed bonus added when the tool has Tier 3 sharpness (maxChargesHoningSteel+1 to maxChargesDiamondHoningSteel charges).
+		#Default matches vanilla Efficiency V (+26).
+		# Default: 26.0
+		# Range: 0.0 ~ 100.0
+		tier3MiningBonus = 26.0
+		#Minimum rotation speed (radians/tick) required for a grindstone to operate.
+		#TFC reference speeds: windmill ~0.016-0.039, water wheel ~0.079, creative motor ~0.157.
+		# Default: 0.039
+		# Range: 0.001 ~ 0.1
+		grindstoneMinSpeed = 0.039
+		#Multiplier converting axle speed (rad/tick) to sharpening progress per tick.
+		#Progress per tick = speed * multiplier. Operation completes when progress >= ticksPerOperation.
+		#Default of 12.0 calibrates so a water wheel (~0.079 rad/tick) adds ~1 progress/tick.
+		# Default: 12.0
+		# Range: 0.1 ~ 1000.0
+		grindstoneSpeedMultiplier = 12.0
+
+	#Grain Pile Settings
+	[items.grainPile]
+		#Maximum number of grain items a single pile block can hold.
+		# Default: 128
+		# Range: 1 ~ 1024
+		maxCapacity = 128
+		#Decay rate modifier for grain in an unsheltered pile.
+		#Values > 1 accelerate decay; values < 1 slow it down.
+		#TFC default for no trait = 1.0. A value of 0.5 doubles shelf life.
+		# Default: 0.8
+		# Range: 0.01 ~ 10.0
+		decayModifier = 0.8
+		#Decay rate modifier for grain in a sheltered pile (sky blocked).
+		#Should generally be lower than decayModifier.
+		# Default: 0.5
+		# Range: 0.01 ~ 10.0
+		shelterDecayModifier = 0.5
+
+	#Enable/Disable Items
+	[items.masterList]
+		enableSnowShoes = true
+		enableHikingBoots = true
+		enableCrampons = true
+		enableBearTrap = true
+		enableSnare = true
+		enableFishingNet = true
+		enableRopeBridge = true
+		enableRopeLadder = true
+		enableRopeJavelin = true
+		enableHookJavelins = true
+		enableGemDisplays = true
+		enableProspectorsHammers = true
+		enableSlings = true
+		enableWhetstones = true
+		enableCrowns = true
+		enableGrainPiles = true

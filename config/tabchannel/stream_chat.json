@@ -1,0 +1,14 @@
+{
+  "integrationEnabled": false,
+  "overlayEnabled": true,
+  "platform": "TWITCH",
+  "twitchChannel": "",
+  "twitchLogin": "",
+  "twitchToken": "",
+  "overlayOpacity": 0.65,
+  "messageLimit": 50,
+  "compactMode": true,
+  "soundsEnabled": false,
+  "autoScroll": true,
+  "emotesEnabled": false
+}

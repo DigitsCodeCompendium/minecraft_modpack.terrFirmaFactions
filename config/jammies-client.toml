@@ -1,0 +1,12 @@
+["Jam Tooltip Display"]
+	#Show tooltips on Jams
+	enableTooltips = true
+	#Show tooltips on Jams only when the player holds SHIFT
+	shiftToolTips = false
+	#The tooltip display style: 
+	# NORMAL - Displays the lid on one line and return chance on the second line
+	# SAME_LINE - Displays the lid and return chance on one line
+	# SHORT - Displays the lid and return chance on one line with no words
+	#Default - NORMAL
+	#Allowed Values: NORMAL, SAME_LINE, SHORT
+	toolTipStyle = "NORMAL"

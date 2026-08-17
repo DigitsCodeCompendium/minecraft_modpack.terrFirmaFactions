@@ -1,0 +1,14 @@
+#Nombre max de mentions @staff / @admin / @mod par joueur dans la fenêtre (anti-spam).
+# Default: 3
+# Range: 1 ~ 3
+mentionStaffAdminMax = 3
+#Durée en secondes de la fenêtre anti-spam pour les mentions staff/admin.
+# Default: 60
+# Range: 10 ~ 3600
+mentionStaffAdminWindowSeconds = 60
+#Cooldown en secondes après avoir dépassé le quota (les @staff/@admin ne notifient plus pendant ce délai, puis le quota se réinitialise).
+# Default: 30
+# Range: 5 ~ 600
+mentionStaffAdminCooldownSeconds = 30
+#Active la compatibilité No Chat Reports (statut serveur sécurisé, pas de signature chat forcée).
+noChatReportsCompat = true

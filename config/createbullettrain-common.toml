@@ -1,0 +1,47 @@
+#Master switch. When false, bullet tracks behave exactly like vanilla Create tracks.
+enableSpeedModifiers = true
+
+#Copper Bullet Train Track
+[copper_bullet_track]
+	#Multiplier applied to the train's top speed while it runs on this track.
+	# Default: 2.0
+	# Range: 0.1 ~ 100.0
+	topSpeedMultiplier = 2.0
+	#Multiplier applied to the train's maximum speed through curves.
+	# Default: 2.0
+	# Range: 0.1 ~ 100.0
+	turnSpeedMultiplier = 2.0
+	#Multiplier applied to how quickly the train reaches its top speed.
+	# Default: 2.0
+	# Range: 0.1 ~ 100.0
+	accelerationMultiplier = 2.0
+
+#Brass Bullet Train Track
+[brass_bullet_track]
+	#Multiplier applied to the train's top speed while it runs on this track.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	topSpeedMultiplier = 5.0
+	#Multiplier applied to the train's maximum speed through curves.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	turnSpeedMultiplier = 5.0
+	#Multiplier applied to how quickly the train reaches its top speed.
+	# Default: 5.0
+	# Range: 0.1 ~ 100.0
+	accelerationMultiplier = 5.0
+
+#Netherite Bullet Train Track
+[netherite_bullet_track]
+	#Multiplier applied to the train's top speed while it runs on this track.
+	# Default: 10.0
+	# Range: 0.1 ~ 100.0
+	topSpeedMultiplier = 10.0
+	#Multiplier applied to the train's maximum speed through curves.
+	# Default: 10.0
+	# Range: 0.1 ~ 100.0
+	turnSpeedMultiplier = 10.0
+	#Multiplier applied to how quickly the train reaches its top speed.
+	# Default: 10.0
+	# Range: 0.1 ~ 100.0
+	accelerationMultiplier = 10.0

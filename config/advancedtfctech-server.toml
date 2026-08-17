@@ -1,0 +1,62 @@
+[general]
+	#
+	# The maximum amount of damage Fleshing Blades can take. While the fleshing machine is working, the blades sustain 1 damage per tick, so this is effectively the lifetime in ticks.
+	# Default: 20000
+	# Range: > 1
+	fleshingMachine_bladesDamage = 20000
+
+	[general.thresher]
+		#
+		# A modifier to apply to the energy costs of every thresher recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#
+		# A modifier to apply to the time of every thresher recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[general.grist_mill]
+		#
+		# A modifier to apply to the energy costs of every grist mill recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#
+		# A modifier to apply to the time of every grist mill recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[general.power_loom]
+		#
+		# A modifier to apply to the energy costs of every power loom recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#
+		# A modifier to apply to the time of every power loom recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[general.beamhouse]
+		#
+		# A modifier to apply to the energy costs of every beamhouse recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#
+		# A modifier to apply to the time of every beamhouse recipe
+		# Default: 1.0
+		# Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+[debug]
+	#
+	# If true, a GUI can be opened up by rightclicking the Power Loom with a Pirn.
+	enablePowerLoomDebug = false
+	#
+	# If true, a GUI can be opened up by rightclicking the Fleshing Machine.
+	enableFleshingMachineDebug = false

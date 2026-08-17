@@ -1,0 +1,14 @@
+#JourneyMap TFC Integration - Client Configuration
+[overlays]
+	#在地图上显示 TFC 岩层类型叠加层 / Show TFC rock layer types overlay on the map.
+	rockLayerEnabled = true
+	#在地图上显示 TFC 降水热力图叠加层 / Show TFC precipitation/rainfall heatmap overlay on the map.
+	precipitationEnabled = true
+	#在地图上显示 TFC 温度热力图叠加层 / Show TFC temperature heatmap overlay on the map.
+	temperatureEnabled = true
+	#叠加层不透明度 (0.0 = 完全透明, 1.0 = 完全不透明) / Opacity of the overlay layers (0.0 = transparent, 1.0 = opaque).
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	overlayOpacity = 0.6
+	#在地图上显示当前激活叠加层的颜色图例 / Show color legend on the map for active overlays.
+	showLegend = true
