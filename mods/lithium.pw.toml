@@ -1,0 +1,18 @@
+filename = 'lithium-neoforge-0.15.4+mc1.21.1.jar'
+name = 'Lithium'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21.1-0.15.4-neoforge'
+
+[download]
+hash = '2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'gvQqBUqZ'
+version = 'DDUrRVCA'

@@ -1,0 +1,18 @@
+filename = 'Waterflasks-1.21.1-4.0.1-beta.jar'
+name = 'Water Flasks'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '4.0.1-beta'
+
+[download]
+hash = '7b687fe502b4420f7f0bbd3664fc50353866b3b846a5738a07555982e902c6f08f50de09d2f85c5ca3b70d1826c8e3bfa151d66f9868b50028d1c57cb6266842'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ONgsGaM9/versions/bB49hjHB/Waterflasks-1.21.1-4.0.1-beta.jar'
+
+[update.modrinth]
+mod-id = 'ONgsGaM9'
+version = 'bB49hjHB'

@@ -1,0 +1,25 @@
+filename = 'rnr-1.0.4-1.21.1.jar'
+name = 'Roads and Roofs TFC'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4-1.21.1'
+
+[download]
+hash = 'e8ac6a4438ff9d77c8456439539ae47c97bec8b334607a7b00736799947cee9b0be9726f6d9ce234bb567a079775fac4010f7c3612931db6c5a24692fcd6030d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ca9X1Phr/versions/xbtrNvLp/rnr-1.0.4-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'ca9X1Phr'
+version = 'xbtrNvLp'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9q4wtMjp'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'

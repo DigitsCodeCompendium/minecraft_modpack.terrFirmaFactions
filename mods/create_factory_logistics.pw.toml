@@ -1,0 +1,18 @@
+filename = 'create_factory_logistics-1.21.1-1.6.0-all.jar'
+name = 'Create Factory Logistics'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.6.0'
+
+[download]
+hash = 'aeb3c3c25d8584ed6d1bb431b5090c7da6f2e0fb2119eb8b0113f4fac5d59d18879290474c84994f5e713c45a75d532b7949609c8bea50044188b2fb889950d0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QMGO17gm/versions/4Drrlfu3/create_factory_logistics-1.21.1-1.6.0-all.jar'
+
+[update.modrinth]
+mod-id = 'QMGO17gm'
+version = '4Drrlfu3'

@@ -1,0 +1,18 @@
+filename = 'TFCVolcanoes-1.21.1-2.1.1.jar'
+name = 'TFC Volcanoes'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'b083b2ab3c96243fd4274a43bbf49e3fb24a047aa45e122bb44c1db749d6a220037f4ee4bae1f5aef9717ff6e911eb2c30577a5a38eccdd78cb6697545656c2f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rQG4GU1V/versions/ETLHUCWi/TFCVolcanoes-1.21.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'rQG4GU1V'
+version = 'ETLHUCWi'

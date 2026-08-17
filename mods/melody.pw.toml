@@ -1,0 +1,18 @@
+filename = 'melody_neoforge_1.0.10_MC_1.21.jar'
+name = 'Melody'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.10-1.21-neoforge'
+
+[download]
+hash = '3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar'
+
+[update.modrinth]
+mod-id = 'CVT4pFB2'
+version = 'efcdRVZP'

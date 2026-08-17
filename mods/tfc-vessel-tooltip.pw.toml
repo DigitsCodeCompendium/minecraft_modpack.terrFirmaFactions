@@ -1,0 +1,21 @@
+filename = 'TFCVesselTooltip-NeoForge-1.21.1-2.0.jar'
+name = 'TFC Vessel Tooltip'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = '51622133939895584c7b03ed94c612e2603905d1c7b673f75af67e4ba2f0974d72d18d0ea0fdbd51ed08bdd1eeec67b3915571be2546cbc03812c36148c151cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Xve2AFV9/versions/O3aknHl9/TFCVesselTooltip-NeoForge-1.21.1-2.0.jar'
+
+[update.modrinth]
+mod-id = 'Xve2AFV9'
+version = 'O3aknHl9'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'

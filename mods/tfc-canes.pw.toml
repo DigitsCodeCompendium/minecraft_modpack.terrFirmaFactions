@@ -1,0 +1,21 @@
+filename = 'TFC Canes-1.21.1-3.0.0.jar'
+name = 'TFC Canes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.0'
+
+[download]
+hash = '2da57c19ed036e180ddd52c6eb52162c78dd2cb22e24b681490ec566ae7d100aee2036f1527b1f9cdaef02e0974d4d790ed4781e08f4d8181d93bff0cbaeea82'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZELi9Nbx/versions/ZyDdXRPV/TFC Canes-1.21.1-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'ZELi9Nbx'
+version = 'ZyDdXRPV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'

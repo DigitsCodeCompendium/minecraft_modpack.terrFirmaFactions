@@ -1,0 +1,18 @@
+filename = 'astikorcartsredux-1.2.4.jar'
+name = 'AstikorCarts Redux'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.4'
+
+[download]
+hash = 'd6ecf33be5065cffdd449167396f538bd89bfd8a38d86957bab1551869aebd1c0263504eb06e27d3adb9d7f25698fe9f61bd64f1490c0f6fb8d1c62fb9f5aa25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mnLFouB0/versions/JtPCk233/astikorcartsredux-1.2.4.jar'
+
+[update.modrinth]
+mod-id = 'mnLFouB0'
+version = 'JtPCk233'

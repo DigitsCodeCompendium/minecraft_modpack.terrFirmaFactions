@@ -1,0 +1,18 @@
+filename = 'createbullettrain-1.1.0.jar'
+name = 'Create: Bullet Train'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0'
+
+[download]
+hash = '071e55d79f23cfc3960f742710c59a1cb8613a1c37992ed50167bbad47266c0fd99f8886c8e239c18e36d816b0c8a26f54623ccf0fdf8c5b91f781e0c59d5b4b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Og8azZF7/versions/fpD5b022/createbullettrain-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'Og8azZF7'
+version = 'fpD5b022'

@@ -1,0 +1,18 @@
+filename = 'Who touched my train-1.4.0-Create6.0-beta.jar'
+name = 'Create: Who Touched My Train'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.4.0-Create6.0-beta'
+
+[download]
+hash = '828f47b5431bee25392b90c44824920eb93825a495d74d3e2e28fd4cac0af2a2bac0e89b9b50f62472aa5ab03f865af063ac5a5dcfd09bae7298e2ec25251b50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HGhzofkm/versions/ZI94Ro0T/Who touched my train-1.4.0-Create6.0-beta.jar'
+
+[update.modrinth]
+mod-id = 'HGhzofkm'
+version = 'ZI94Ro0T'

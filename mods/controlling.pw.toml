@@ -1,0 +1,21 @@
+filename = 'Controlling-neoforge-1.21.1-19.0.5.jar'
+name = 'Controlling'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '19.0.5'
+
+[download]
+hash = 'bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar'
+
+[update.modrinth]
+mod-id = 'xv94TkTM'
+version = 'FaNppCJJ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fuuu3xnx'
+type = 'REQUIRED'

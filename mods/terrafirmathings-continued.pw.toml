@@ -1,0 +1,51 @@
+filename = 'tfcthings-2.0.1-Beta.jar'
+name = 'TerraFirmaThings Continued'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.1-beta'
+
+[download]
+hash = '0fd9dc19bf17f4e1d73be44e96f462682a487a4e7267abb3c361bc6e4f8623b2fb6eba094a50524972deddb023069bb487dd27b380acadac2c83c10787743684'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JPidpgFq/versions/gdtkEl2l/tfcthings-2.0.1-Beta.jar'
+
+[update.modrinth]
+mod-id = 'JPidpgFq'
+version = 'gdtkEl2l'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'REQUIRED'
+version = 'BIogJv2D'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uXhSmPjd'
+type = 'OPTIONAL'
+version = 'Hx2FM8dR'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'
+version = 'JkFFfEao'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'
+version = 'lv9gSYg1'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5zN7dZdO'
+type = 'OPTIONAL'
+version = '4AD4mj7V'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3SfcQ9So'
+type = 'OPTIONAL'
+version = 'qkcwNfW1'

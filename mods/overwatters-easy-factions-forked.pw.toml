@@ -1,0 +1,18 @@
+filename = 'easy_factions-neoforge-1.1.3-1.21.1-java21.jar'
+name = 'Easy Factions - Unofficial Port'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'easy_factions-neoforge-1.1.3-1.21.1-java21.jar'
+
+[download]
+hash = '6115a694b25e12d5b42b734cd3579975047f3b51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8557856
+project-id = 1587485

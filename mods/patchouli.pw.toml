@@ -1,0 +1,18 @@
+filename = 'Patchouli-1.21.1-93-NEOFORGE.jar'
+name = 'Patchouli'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-93-neoforge'
+
+[download]
+hash = '0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e947d435b52d06da31159d2d02ea36e5742668dbc826308a4c99e4039f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar'
+
+[update.modrinth]
+mod-id = 'nU0bVIaL'
+version = 'BIogJv2D'

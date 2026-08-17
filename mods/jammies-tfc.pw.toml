@@ -1,0 +1,21 @@
+filename = 'jammies-1.21.1-1.1.0.jar'
+name = 'Jammies-TFC'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '1a739285c27e344e1f50e290c93ae69cb369b3c58609f2af59aa185bac82ffd00f198127fe94051cec5f6ac896553f999c26368a039ad1a12895697a0b8efdf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Z5Fmc4Km/versions/hG4zSk7T/jammies-1.21.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'Z5Fmc4Km'
+version = 'hG4zSk7T'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'

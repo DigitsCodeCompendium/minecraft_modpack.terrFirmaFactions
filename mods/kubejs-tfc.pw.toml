@@ -1,0 +1,25 @@
+filename = 'kubejs_tfc-1.21.1-2.0.2.jar'
+name = 'KubeJS TFC'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.2'
+
+[download]
+hash = 'cb6279324ad7f3eeb41a684d71d33c5a94655a2ed0663443d872806e8b5d51f1388b242e292bab25535820954b19e598f771181887cad79534a9f3c22588b7ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mhtClB2S/versions/2tLoZSdy/kubejs_tfc-1.21.1-2.0.2.jar'
+
+[update.modrinth]
+mod-id = 'mhtClB2S'
+version = '2tLoZSdy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'
