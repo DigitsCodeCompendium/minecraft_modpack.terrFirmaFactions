@@ -1094,6 +1094,11 @@ hash = "c596b810684d3de870f0b629d76a10ae209be81649f5582b982738d1136a0d6b"
 metafile = true
 
 [[files]]
+file = "mods/puffish-skills.pw.toml"
+hash = "a3140ce5fded79c49f39d23dc5ccd1bc3303fe8e2e5eebb9c04dd7019b0834d3"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "1dfd8edb2bc1e383bd7010a8d8897f1099bbb9ff3f2cf46f79908af478d4dd37"
 metafile = true
