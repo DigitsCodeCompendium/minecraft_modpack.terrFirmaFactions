@@ -1262,3 +1262,7 @@ metafile = true
 file = "mods/water-flasks.pw.toml"
 hash = "fd684abfe657e4955a7eff826b472641217accdb7727f05e5bdc2090969b6f49"
 metafile = true
+
+[[files]]
+file = "open.cmd"
+hash = "0deffd9f36e9ac57858f27baa8d9a7fadca86724a94a635810ed05706267e343"
