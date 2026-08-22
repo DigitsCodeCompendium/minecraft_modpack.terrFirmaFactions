@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "a50d670019ae9263fc7f699502daef072e9041fa2f0ffac33c6ff2411e499ea7"
+
+[[files]]
 file = "config/ModernUI/bootstrap.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -870,6 +874,11 @@ hash = "39074dc93296139f29b081165b7b6e3d235b6b185e62a29b809a652a8e07381f"
 metafile = true
 
 [[files]]
+file = "mods/decay-2012.pw.toml"
+hash = "4fe6e45f342480e225626482d116e5dce39a1fba9b7a0fae3e14dfc5015260fe"
+metafile = true
+
+[[files]]
 file = "mods/delightful-creators.pw.toml"
 hash = "5238a7dae8028bd3b8db4bb7266d51c35d34d64d7c2d48403ac5dffe25b3b26a"
 metafile = true
@@ -1076,7 +1085,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "d78de81e44a119bf740afa0bb706635c1dffe690a632c7349e2d2697a5566e9c"
+hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
 
 [[files]]
@@ -1146,7 +1155,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrafirmacraft.pw.toml"
-hash = "0636ed5d7ea9cdaa97eec19a491b7bf5a63c8348b99794da5fe17574ff8df868"
+hash = "7945a845351143fe4a47425e4ca96401ca8e89162d770f198502a5809e94ae90"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Decay 2012"
+filename = "Decay_2012-NeoForge-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "296506555b2f95fd2d49b7ccbe0529ec96f14920"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7187771
+project-id = 676521
