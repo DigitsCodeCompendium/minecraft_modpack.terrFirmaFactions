@@ -1,13 +1,13 @@
 name = "TerraFirmaCraft"
-filename = "TerraFirmaCraft-NeoForge-1.21.1-4.2.8.jar"
+filename = "TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "aff8713c181fa4b190f3b018216998530c734a12"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JaCEZUhg/versions/eBIfZlEM/TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar"
+hash-format = "sha512"
+hash = "f1ebf038aa1b40e4ec61b8f6def476ca51e6d76f1d29ae2af9398eba66080d2da6114716d5a1ae30721aa0dbe29dfbbae44ee671f17bf8110bb0fbff7f59f207"
 
 [update]
-[update.curseforge]
-file-id = 8666972
-project-id = 302973
+[update.modrinth]
+mod-id = "JaCEZUhg"
+version = "eBIfZlEM"

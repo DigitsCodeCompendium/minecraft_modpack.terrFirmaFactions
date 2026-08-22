@@ -1040,7 +1040,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "7d59520e3a0ab82f8e844ab43c840abc77be57773772d7df12c99367f533ce64"
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
@@ -1085,7 +1085,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
 
 [[files]]
@@ -1130,7 +1130,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "29c51a84bf7410c9a8a30bc2331c5f255253877223d7662bd439f9d363806a77"
+hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
 metafile = true
 
 [[files]]
@@ -1155,7 +1155,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrafirmacraft.pw.toml"
-hash = "7945a845351143fe4a47425e4ca96401ca8e89162d770f198502a5809e94ae90"
+hash = "7aa9b486b50579b36414cb88705f158b3e7215ed71887082edd8fa06045313fd"
 metafile = true
 
 [[files]]
@@ -1191,11 +1191,6 @@ metafile = true
 [[files]]
 file = "mods/tfc-glass-workshop.pw.toml"
 hash = "aa701352c621eedbe09537358ee7468227ce711b323865525bbcfacd67963491"
-metafile = true
-
-[[files]]
-file = "mods/tfc-hammer-time-(unofficial-port).pw.toml"
-hash = "36eb61c8c4dc10cbf55731981eed4f66d9b9ebc873fbd5bcce29de815d511bbd"
 metafile = true
 
 [[files]]
@@ -1240,7 +1235,7 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-volcanoes.pw.toml"
-hash = "de3fc5f88fb6b036ada9ec32b084b4a6915703b07e7e01a3e7ca65e10378c301"
+hash = "ef7532a4d049c03b7e008290dc508e95fbf9f82aa661bf13cf8da7d422f21699"
 metafile = true
 
 [[files]]
