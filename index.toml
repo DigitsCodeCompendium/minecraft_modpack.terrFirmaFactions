@@ -1180,13 +1180,13 @@ hash = "b345e9a508564fc6a75fca68c72bc4c941e82749438f4c6c56121c074e4828b3"
 metafile = true
 
 [[files]]
-file = "mods/tfc-eratosthenes.pw.toml"
-hash = "fef1f20c8fd70858e2fa8588cb2902c63d2dfdaf3725dd1c2d7f51f3ac990961"
+file = "mods/tfc-glass-workshop.pw.toml"
+hash = "aa701352c621eedbe09537358ee7468227ce711b323865525bbcfacd67963491"
 metafile = true
 
 [[files]]
-file = "mods/tfc-glass-workshop.pw.toml"
-hash = "aa701352c621eedbe09537358ee7468227ce711b323865525bbcfacd67963491"
+file = "mods/tfc-hammer-time-(unofficial-port).pw.toml"
+hash = "36eb61c8c4dc10cbf55731981eed4f66d9b9ebc873fbd5bcce29de815d511bbd"
 metafile = true
 
 [[files]]
