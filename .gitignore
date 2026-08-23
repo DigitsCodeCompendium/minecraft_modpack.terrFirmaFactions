@@ -4,3 +4,6 @@
 # OS/editor junk
 .vscode/
 .probe/
+
+# do I need a comment for this one?
+.env

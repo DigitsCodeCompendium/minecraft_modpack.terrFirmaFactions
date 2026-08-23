@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/probejs.code-snippets"
+hash = "5a1e31b1da93c267b8a63f9267048e54ac17aa69526bef31b2001a7b270d6ddf"
+
+[[files]]
+file = ".vscode/settings.json"
+hash = "8dac5b9e9035e1032ae1ceacc363197b52b34a861da4c2e362aad1ee63e1f549"
+
+[[files]]
 file = "README.md"
 hash = "a50d670019ae9263fc7f699502daef072e9041fa2f0ffac33c6ff2411e499ea7"
 
