@@ -1,0 +1,8 @@
+#Probe js stuff
+.probe/
+
+#Devscripts
+devscripts/
+
+#vscode stuff
+.vscode/
