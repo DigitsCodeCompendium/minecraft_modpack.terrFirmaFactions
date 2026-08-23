@@ -969,6 +969,11 @@ hash = "268484128674aec5c55fa679ccd8d8ac749e18cf20542ba8c3b67f8ccedd4b79"
 metafile = true
 
 [[files]]
+file = "mods/history-stages.pw.toml"
+hash = "aceaeb1ba5ec0ef5672cb365454280f3ecb5cf77c7da1968f985cacf9287834c"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "9ef5b2dd9e027a1dd926c0cb05618a89aa41c60dc05e6334741dc6d1b0f87457"
 metafile = true
@@ -1079,6 +1084,11 @@ hash = "e3049d1e7fb9462726911d112e7eca11da2ee8a564d8e87ee219c5341af689b5"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "aebccf191b62a1a51562b84a95028caeada48f69bb9bf2ddb0280c91b1014ceb"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
@@ -1125,7 +1135,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
 
 [[files]]
@@ -1200,7 +1210,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrafirmacraft.pw.toml"
-hash = "7aa9b486b50579b36414cb88705f158b3e7215ed71887082edd8fa06045313fd"
+hash = "2a3787ce84edd74363489035bdb8d6a5f6ff88bb569e427d768db96b4d94cac4"
 metafile = true
 
 [[files]]

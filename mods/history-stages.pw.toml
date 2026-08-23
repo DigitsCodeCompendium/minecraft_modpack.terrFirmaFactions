@@ -1,0 +1,13 @@
+name = "History Stages"
+filename = "historystages-5.6.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vChjQZEl/versions/ECJEQvN0/historystages-5.6.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "17b0fdd1af043a9eb10af9087bbb1e51735ab5b1c5aaf1adf4b3b5ea1712bddd16869625848e28cb430c6e332f686d0b1870b1f152db5f17a6ce8261682c2ba4"
+
+[update]
+[update.modrinth]
+mod-id = "vChjQZEl"
+version = "ECJEQvN0"
