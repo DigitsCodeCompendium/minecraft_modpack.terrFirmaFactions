@@ -675,7 +675,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "760b38f05aa4169b61a80848b5de4ebd963c37926b888be4aedf418c0a7bbc01"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -716,6 +716,21 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "923ebcd766888465d54eb0744f369afb052269094d8ed526a8edd70b54d071be"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+metafile = true
+
+[[files]]
+file = "mods/cold-sweat.pw.toml"
+hash = "73392256d10dc5a21b57b65e33fa0bc14301fba174d8348759dc614cc9281bc0"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
 
 [[files]]
@@ -764,11 +779,6 @@ hash = "17296abd1325cc10b814a501760a938db4537ed7bc214923ebaff0c3880bd1ea"
 metafile = true
 
 [[files]]
-file = "mods/create-jei-compat.pw.toml"
-hash = "c8ef011c99aa58b44cc22c8d240d422446959fd86b0a2d496b9e8ca37cff4564"
-metafile = true
-
-[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "d80a54553d3881b6bc5b56c37de2be74e8c3fdb51fbde1a1cdc9f779ecc9ba66"
 metafile = true
@@ -804,6 +814,11 @@ hash = "b4e981a37addaf17e42f0953d247b77142a7f83092bcbb5ad324a577b47dca2f"
 metafile = true
 
 [[files]]
+file = "mods/create-treadmill.pw.toml"
+hash = "01e5fdd8b3acf3653a3cbb66f26dca79630f6259b0daa98f3e7a5496ec763ee5"
+metafile = true
+
+[[files]]
 file = "mods/create-vintage-(unofficial-port).pw.toml"
 hash = "678ad75e7f10035ad057a737508e86a195cba55d0907c07003419bf54a2bd998"
 metafile = true
@@ -821,6 +836,11 @@ metafile = true
 [[files]]
 file = "mods/create_factory_logistics.pw.toml"
 hash = "3b21a129abe68a60479fdd08d32444e91fec13b594d37c4aad0466020453d957"
+metafile = true
+
+[[files]]
+file = "mods/createjeicompat.pw.toml"
+hash = "7d46beda7bd22976a0af9bb4383d78fd0b6be39e67ef3b1f1d7c3a63b4d50b14"
 metafile = true
 
 [[files]]
@@ -875,7 +895,7 @@ metafile = true
 
 [[files]]
 file = "mods/firmalife.pw.toml"
-hash = "802d9d3ef5736cfb4a38c256746c70c63b36b2d805e0d717f705e888944bcd7d"
+hash = "26789acb5be336484b2d34a25504cc109cbf047a91401e645140482086549ded"
 metafile = true
 
 [[files]]
@@ -925,7 +945,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fb25c08acfdba62554df12ed0e13c90fb1aa24d78d4619e91df52190ae6878f5"
+hash = "cc9ff8f836b242932bc70428c785c1b24838bf4a008f1614aa8c2fcbd3fd86d4"
 metafile = true
 
 [[files]]
@@ -990,7 +1010,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "ac0986c20317dc2507b6aace94cb053e9d99c64dcba6f30349b92a67adbecb3a"
+hash = "99d966606fa05d23dde89cfb6318f4b9b84e0853dc6ba2e535fa972ff149c130"
 metafile = true
 
 [[files]]
@@ -1000,7 +1020,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "f74b6b5757ca505eb52c9c21fb3388f23fa51b6e3281216fdf08a8d2a1b14b51"
+hash = "6c52f6be470499394777f9a4a148560193a16fb87137f979eafd2199020c9c3c"
 metafile = true
 
 [[files]]
@@ -1054,6 +1074,16 @@ hash = "963a15d39258c9d522e6b92ef6ea4c9f698a3c5074f0ecf4ae0186c1d103aaa8"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+hash = "7efe2d26a41f536a75a615a70216da61b0b39b4039ac24111ca013f4d6c943dc"
+metafile = true
+
+[[files]]
+file = "mods/puffish-attributes.pw.toml"
+hash = "22d273512f73d6ea8b27dddb628dce14639a35894bb4c27368f7c7a47bb3c2df"
+metafile = true
+
+[[files]]
 file = "mods/puffish-skills.pw.toml"
 hash = "a3140ce5fded79c49f39d23dc5ccd1bc3303fe8e2e5eebb9c04dd7019b0834d3"
 metafile = true
@@ -1095,7 +1125,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "5bcc9a6fe6929679ad4631c5b06f663200485dfa643805934be2cbe76f4547df"
+hash = "2bba26949b89e723affc3aecad1f876056700cec31b5ab2c21e1a43b434f9f89"
 metafile = true
 
 [[files]]
@@ -1119,11 +1149,14 @@ hash = "6af5f3650936190c5fabb18c43e277c14ebb0b48d99493c90e30da57dd04ac83"
 metafile = true
 
 [[files]]
+<<<<<<< Updated upstream
 file = "mods/terrafirmacraft.pw.toml"
 hash = "2a3787ce84edd74363489035bdb8d6a5f6ff88bb569e427d768db96b4d94cac4"
 metafile = true
 
 [[files]]
+=======
+>>>>>>> Stashed changes
 file = "mods/terrafirmathings-continued.pw.toml"
 hash = "dfb51c880fd1389994c610e1065f70c01e5fd2325bf16e908f4f232fd8d83e3f"
 metafile = true
@@ -1141,6 +1174,11 @@ metafile = true
 [[files]]
 file = "mods/tfc-canes.pw.toml"
 hash = "2ae35b27d5dfe28ebae1746c29105ba173b666d51d3bc7eac649db10902c46c1"
+metafile = true
+
+[[files]]
+file = "mods/tfc-cold-sweat.pw.toml"
+hash = "35f4043bdf6843b5e93ea043b20077a20c1ffe0c8dc1f76535e77976cc1cd3a0"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Create JEI Compat"
+filename = "createjeicompat-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3435d67651913cf2105a4994d9a6af2873df37ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8534122
+project-id = 1422344

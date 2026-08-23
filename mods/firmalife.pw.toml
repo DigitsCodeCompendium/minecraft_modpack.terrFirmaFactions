@@ -1,29 +1,13 @@
-filename = 'Firmalife-NeoForge-1.21.1-3.0.11.jar'
-name = 'Firmalife'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.11'
+name = "FirmaLife"
+filename = "Firmalife-NeoForge-1.21.1-3.0.12.jar"
+side = "both"
 
 [download]
-hash = '6653614c206e58fc664a2de26af692c765b40fde1f88dd59d247b26f7b8cc3c33c6e65d83762a1ae512b5a97b126d0a477fd0e5b73109e56c0e413903ada1e6a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/5bKeBHw2/versions/ECcBkncu/Firmalife-NeoForge-1.21.1-3.0.11.jar'
+hash-format = "sha1"
+hash = "4ce5a237245b3067bd5b9af7b5d4b70097dd940e"
+mode = "metadata:curseforge"
 
-[update.modrinth]
-mod-id = '5bKeBHw2'
-version = 'ECcBkncu'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'nU0bVIaL'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'JaCEZUhg'
-type = 'REQUIRED'
+[update]
+[update.curseforge]
+file-id = 8706783
+project-id = 453394
