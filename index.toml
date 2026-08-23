@@ -1020,7 +1020,11 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
+<<<<<<< HEAD
 hash = "6c52f6be470499394777f9a4a148560193a16fb87137f979eafd2199020c9c3c"
+=======
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 metafile = true
 
 [[files]]
@@ -1065,7 +1069,11 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
+<<<<<<< HEAD
 hash = "ef5fff89f8111fbb1c7914c3e77f721086764320589116a1c6a23fee8f47a4c0"
+=======
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 metafile = true
 
 [[files]]
@@ -1125,7 +1133,11 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
+<<<<<<< HEAD
 hash = "2bba26949b89e723affc3aecad1f876056700cec31b5ab2c21e1a43b434f9f89"
+=======
+hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 metafile = true
 
 [[files]]
@@ -1151,7 +1163,11 @@ metafile = true
 [[files]]
 <<<<<<< Updated upstream
 file = "mods/terrafirmacraft.pw.toml"
+<<<<<<< HEAD
 hash = "2a3787ce84edd74363489035bdb8d6a5f6ff88bb569e427d768db96b4d94cac4"
+=======
+hash = "7aa9b486b50579b36414cb88705f158b3e7215ed71887082edd8fa06045313fd"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 metafile = true
 
 [[files]]
@@ -1197,11 +1213,14 @@ hash = "96814be016a497b0f10dae4ebb0683db555285ca32ee9352e4b3e79181d66b47"
 metafile = true
 
 [[files]]
+<<<<<<< HEAD
 file = "mods/tfc-hammer-time-(unofficial-port).pw.toml"
 hash = "13254e57375771fbaa2ef72ac54dd76898d746a8d6074ee8214b9978a680a9db"
 metafile = true
 
 [[files]]
+=======
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 file = "mods/tfc-ie-crossover.pw.toml"
 hash = "f1bd86fd3d98aa72892e4cbdf319962e549a09b82996862e73de88b335384ada"
 metafile = true
@@ -1243,7 +1262,11 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-volcanoes.pw.toml"
+<<<<<<< HEAD
 hash = "888a48a33abed44433c43b1f10745555714ab7e045a491b31ed83c96e46aeb5f"
+=======
+hash = "ef7532a4d049c03b7e008290dc508e95fbf9f82aa661bf13cf8da7d422f21699"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
 metafile = true
 
 [[files]]

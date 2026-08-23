@@ -3,6 +3,7 @@ filename = "melody_neoforge_1.0.10_MC_1.21.jar"
 side = "both"
 
 [download]
+<<<<<<< HEAD
 hash-format = "sha1"
 hash = "e83052a92c4ca0016bcfe7f0207273983dc84698"
 mode = "metadata:curseforge"
@@ -11,3 +12,13 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 5453382
 project-id = 938643
+=======
+url = "https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar"
+hash-format = "sha512"
+hash = "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1"
+
+[update]
+[update.modrinth]
+mod-id = "CVT4pFB2"
+version = "efcdRVZP"
+>>>>>>> 603e066e8b7bbd59f335d79feed5985d8a93bbbb
