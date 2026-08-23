@@ -405,46 +405,6 @@ file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
-file = "config/jei/blacklist.json"
-hash = "251c94baa161629fa43a0d3ca07dee97b64886589fb4a64c747a93378d19cb74"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "5ce73a1b19af4f8a91b28ea71c26ae0c6fd601042fbef2ce372a762d2aaecd94"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "55b11da658ded831f427935814a5a9aac520f369c39ba70682bb80e61c6d1194"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "5a5bb08e2ada92137ce5c63aa851f08b525096c2dd9994e02d9fb3bb366448a2"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-hash = "8bb0722d480964720a1500654493b5be225c74f7ff3f94e8658e39db5ab098ad"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "0e783323251ea0c27e4f377b7edf6e43b066ca38ac26c5279803603ef1a085b3"
-
-[[files]]
-file = "config/jei/world/local/New World (2)/lookupHistory.json"
-hash = "4241151de696f820829a119e4e26f408ac5f7736d0e5539491c26954a6c38862"
-
-[[files]]
-file = "config/jei/world/local/New World/lookupHistory.json"
-hash = "fb947c9cabf90841d12f771d5d9b7906d042926f7c99abbbae1c7bf87f10ec9c"
-
-[[files]]
 file = "config/journeymap-server.toml"
 hash = "914e767b44a8e0504767fa60bd1e3779259f6363afb299ed4282b9001f7db61b"
 
@@ -1160,7 +1120,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrafirmacraft.pw.toml"
-hash = "92676492d9c5389ddfa1e9a8fc4b997b9d449392a6df411420c9f4a62257987a"
+hash = "2a3787ce84edd74363489035bdb8d6a5f6ff88bb569e427d768db96b4d94cac4"
 metafile = true
 
 [[files]]
