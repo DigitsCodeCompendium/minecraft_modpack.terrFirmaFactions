@@ -709,6 +709,10 @@ file = "config/waterflasks-common.toml"
 hash = "c13a5fdb5196ceba5693dca5802f1c1518b86c179680aaa6afac16b0fbeffd5d"
 
 [[files]]
+file = "kubejs/server_scripts/test.js"
+hash = "031cf28c093bb8b3628dbda722f2b4fa70a0300e400f9631301186644f958cc8"
+
+[[files]]
 file = "mods/advanced-tfc-tech-unofficial.pw.toml"
 hash = "95592dbe3e6e921599efe342903127c451b02cf509cf5480c95c649ef0e2bd00"
 metafile = true
@@ -1091,6 +1095,11 @@ metafile = true
 [[files]]
 file = "mods/paucal.pw.toml"
 hash = "963a15d39258c9d522e6b92ef6ea4c9f698a3c5074f0ecf4ae0186c1d103aaa8"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
+hash = "4bbc56f6983715ff095638eafab7ca8fee16f602656058b8456e3e8e7f2df918"
 metafile = true
 
 [[files]]
