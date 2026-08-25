@@ -586,7 +586,7 @@ hash = "adebc30c87c4351ecf0dedcea7f70225309cdb06da1534e761a99b4aaf24ad47"
 
 [[files]]
 file = "config/tfc-client.toml"
-hash = "327df7f0d13064f68ea924d205b28550aaa64fd4e132ac68b8b7c9f8de5af1e5"
+hash = "b77032929a3ab1efe622bcebbf53b2a7bea2f87877eeb87782fb8b5cfdfcae2a"
 
 [[files]]
 file = "config/tfc-common.toml"
@@ -639,10 +639,6 @@ hash = "3d53dd7a248b19988d9f2c20ceab496526753330d3905bb2673f3247851e5d3b"
 [[files]]
 file = "config/tfcgenviewer-client.toml"
 hash = "20b522ea48177bd249ff14c3e197d669546ec44d96bb8fd54952a61f53685f40"
-
-[[files]]
-file = "config/tfcmountains-common.toml"
-hash = "43797f4301bc47733d91cbf2f1cfdd1c7fade49614980cb6cb4d7ddaa501e7c6"
 
 [[files]]
 file = "config/tfcthings-common.toml"
@@ -713,6 +709,46 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/bismuth.png"
+hash = "28d7c1ea7850100ec2b8e108f59a7c3428ba4cf6f9e6613db31bcc956589c6c0"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/bismuth_bronze.png"
+hash = "d8eeec29bc942c0240b611aa996f9370a9d30c0a8f7df6ed691ba2a114d0d20a"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/black_bronze.png"
+hash = "bf043bd2608b679673b63d30889542cc709c324ffed90f7baeaf32c6f86799f7"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/black_steel.png"
+hash = "e81b10b24dab05d70a72bf101e8f33f6aa2df6bd8a4f715c366148b430bb013b"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/blue_steel.png"
+hash = "24e1a9480d74fb42f11c5324a5a8a2a3305f15cdb19fbeb3c4eb2528d4991edc"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/bronze.png"
+hash = "ea5cfc454dc0a3783c2e2978dd9add0c8abd456d4f0b0b4656fe3fefb16f56b8"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/copper.png"
+hash = "e80a29aa69c90f2ac034866d0d9e67cffff45b37e7788f3b21c5e2388b64eafa"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/red_steel.png"
+hash = "ecf9089c0076f93e3b3a818000a259de4d8976d1a6b880d691feea42c6e25c21"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/steel.png"
+hash = "f08565b44fa4c415ea3155ba8352e1ba3a0d8514cbc4587971e52299c1ec9f6a"
+
+[[files]]
+file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iron.png"
+hash = "4752096ccf731b5a8d74b93966e9fc6a14fe0537ab2733a9d449602d12d42c41"
+
+[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
@@ -729,6 +765,10 @@ file = "kubejs/config/probe-settings.json"
 hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
 
 [[files]]
+file = "kubejs/config/tfc.json"
+hash = "2b4d60ac12763712fa17019a268b9a831f9c510de78c00e2b8a36b74031a2dbb"
+
+[[files]]
 file = "kubejs/config/web_server.json"
 hash = "8cd1a0c0fc330f9a52024049246ad9c088a742322475c140b74111da9134ccc5"
 
@@ -737,20 +777,40 @@ file = "kubejs/package.json"
 hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
 
 [[files]]
+file = "kubejs/server_scripts/anvil.js"
+hash = "e45b0bd4dfc335cb2bc22739fc765d179a991160dcbc26b03d180b5bd1468154"
+
+[[files]]
+file = "kubejs/server_scripts/armorer.js"
+hash = "cc1ab79251ab4c7d7948bd8a7640b99a4b291b7839eafb2e0afcfbff7e78ad03"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
 
 [[files]]
+file = "kubejs/server_scripts/new_tags.js"
+hash = "cbeea108a39bbf06c31cb65af056381bf129e87ba4a37ed9a494cca8a9e08334"
+
+[[files]]
 file = "kubejs/server_scripts/smith_recipe.js"
-hash = "2ad956aa6ec020c2df959a6985d7b706bd088d498c6d48f35f4e9bd17c1f4b6e"
+hash = "2d7053fedc6c655685414e6898300276ad91113db9a8f30f7b46a0c899e2d293"
 
 [[files]]
 file = "kubejs/server_scripts/test.js"
 hash = "699410459134099ebf4d4affe9ee45a55366f0e7eba3560393f9574a562cf8e7"
 
 [[files]]
+file = "kubejs/server_scripts/triple_ingot_properties.js"
+hash = "5c617c6a60169a8739b48567fdf4b10f20e5e794d282f9b45517a0bf2d563d2c"
+
+[[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
 hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
+
+[[files]]
+file = "kubejs/startup_scripts/triple_ingot.js"
+hash = "bcf81a9c8ed2e06fd4dae505188cd135361b2f7cabeb34085db75a584649e339"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
