@@ -1,0 +1,13 @@
+name = "TFC Metal Tools"
+filename = "tfc_metal_tools-1.21.1-neoforge-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EyoW5jVb/versions/ZzzQtAwJ/tfc_metal_tools-1.21.1-neoforge-1.0.5.jar"
+hash-format = "sha512"
+hash = "ccafea1d6042511b1f77fa81a23c20c27e101df237f3bc45cdac66dde7c782be92d372f95af2dc47b6206a25ba628f517b0361fe32cb46c390c182e885c74f1f"
+
+[update]
+[update.modrinth]
+mod-id = "EyoW5jVb"
+version = "ZzzQtAwJ"

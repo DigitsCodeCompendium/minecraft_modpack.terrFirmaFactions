@@ -9,7 +9,7 @@ enforceSnowLine = true
 #Vertical scale multiplier for all volcanoes. Vanilla TFC uses 1.
 # Default: 1.35
 # Range: 0.1 ~ 5.0
-volcanoHeightScale = 1.35
+volcanoHeightScale = 3.0
 #Controls how wide the transitional altitude bands (foothills) around mountains are. Vanilla TFC uses 4.
 # Default: 8
 # Range: 4 ~ 8
@@ -33,7 +33,7 @@ heightScale = 0.85
 #Horizontal scale multiplier for these biomes' mountains.
 # Default: 2.0
 # Range: 0.1 ~ 20.0
-horizontalScale = 2.0
+horizontalScale = 3.0
 #If true, adds extra jagged/eroded detail noise to slopes and peaks.
 erosionNoise = true
 #Strength of the erosion detail noise (if erosionNoise is enabled). Note that increasing this also increases the overall height of the mountains.
