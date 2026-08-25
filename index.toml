@@ -802,7 +802,7 @@ hash = "699410459134099ebf4d4affe9ee45a55366f0e7eba3560393f9574a562cf8e7"
 
 [[files]]
 file = "kubejs/server_scripts/triple_ingot_properties.js"
-hash = "5c617c6a60169a8739b48567fdf4b10f20e5e794d282f9b45517a0bf2d563d2c"
+hash = "07320d9a923296d5c182cfcad59c38166d83c9a50b165b6cc6f43f9cab7b307a"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -874,6 +874,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
+hash = "6d407aad66fc24958d5d3a332806703165ec09fc7e1645e984c68a65bb5fd546"
 metafile = true
 
 [[files]]
@@ -1028,6 +1029,7 @@ metafile = true
 
 [[files]]
 file = "mods/factions.pw.toml"
+hash = "3f21cda099a2a9ecd7186e48ac6d7cc37212f0a95528ffa1f36e828ab99f1cc3"
 metafile = true
 
 [[files]]
@@ -1061,6 +1063,11 @@ hash = "e6e67b2ac9a7e128fd304f8222f6a05a60915ef77d03e3574bf5cab51937c25a"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "6673879be88ffe7d02f5d917ffe09ef0c92049104aef7dbae59f6032acaaff8c"
+metafile = true
+
+[[files]]
 file = "mods/ftb-filter-system.pw.toml"
 hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
 metafile = true
@@ -1083,10 +1090,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
 [[files]]
@@ -1225,11 +1228,6 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
-file = "mods/modern-ui.pw.toml"
-hash = "b6f4338988597a90bdd0350afbd08ec9758d7d5fd48274ea9dbaedb179284823"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "c51fc43b27fc299bf445ffc61eb9702fb4759b38fc023ee0a4d67da4a6c183ec"
 metafile = true
@@ -1257,11 +1255,6 @@ metafile = true
 [[files]]
 file = "mods/origins-neoforge.pw.toml"
 hash = "c8803e8c0c59cf438f707455ecedb2509876f3728de2747c2822d22fa7a2d0a3"
-metafile = true
-
-[[files]]
-file = "mods/overwatters-easy-factions-forked.pw.toml"
-hash = "76b9b0b516e599030213d244980f1cd097d002159e2453dc7e5538d210400e36"
 metafile = true
 
 [[files]]
@@ -1375,13 +1368,8 @@ hash = "796e92651eff0ecbcff557cfeed452dfcfe4c493b179c7529d757dbbccfe1a21"
 metafile = true
 
 [[files]]
-file = "mods/tfc-electric-cooking.pw.toml"
-hash = "81b0d2c0f7c5ab317a8e3caf8b7e959cb2fcd8c4e2b73a9f5235574a34dd34be"
-metafile = true
-
-[[files]]
 file = "mods/tfc-electric-fridge.pw.toml"
-hash = "b345e9a508564fc6a75fca68c72bc4c941e82749438f4c6c56121c074e4828b3"
+hash = "b2f31cf15900e3b0cdba5c83226f98e950fa768552abcdaccf4f9c997c61db2c"
 metafile = true
 
 [[files]]
