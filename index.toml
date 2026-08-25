@@ -642,7 +642,7 @@ hash = "20b522ea48177bd249ff14c3e197d669546ec44d96bb8fd54952a61f53685f40"
 
 [[files]]
 file = "config/tfcmountains-common.toml"
-hash = "fbbeee827a9b5e12ed023919bf5e892f714eb225c4babc3916ffaedbe4571562"
+hash = "43797f4301bc47733d91cbf2f1cfdd1c7fade49614980cb6cb4d7ddaa501e7c6"
 
 [[files]]
 file = "config/tfcthings-common.toml"
@@ -741,6 +741,10 @@ file = "kubejs/server_scripts/jsconfig.json"
 hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
 
 [[files]]
+file = "kubejs/server_scripts/smith_recipe.js"
+hash = "2ad956aa6ec020c2df959a6985d7b706bd088d498c6d48f35f4e9bd17c1f4b6e"
+
+[[files]]
 file = "kubejs/server_scripts/test.js"
 hash = "699410459134099ebf4d4affe9ee45a55366f0e7eba3560393f9574a562cf8e7"
 
@@ -749,18 +753,18 @@ file = "kubejs/startup_scripts/jsconfig.json"
 hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
 
 [[files]]
-file = "mods/advanced-tfc-tech-unofficial.pw.toml"
-hash = "db1413a80362d6fc68c19eb4f5f36d0f325e5c6d1878510df46f19f96626b09f"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "55e3bbb3e105edb82c65e8556121ded13e0a25f9768c779fc0ab358680cdb402"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
 file = "mods/astikorcarts-redux.pw.toml"
 hash = "845912d302d40b4ba30a91935fd7b15a095efe6bc992b77f91854fcb3f414387"
+metafile = true
+
+[[files]]
+file = "mods/auroras.pw.toml"
+hash = "22523481b7a5b3be8e086462d6598a209d5ccdd3fea0c6a2c6384e9aa92b40ec"
 metafile = true
 
 [[files]]
@@ -771,6 +775,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "1db1cbff929bed2994ed9fc786ba2fe927132a756f7056da2c0ee401aca738cb"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
 
 [[files]]
@@ -799,8 +808,18 @@ hash = "ef2323b87d1ba4d03d0ee1ab800d06ba6490f45a1b84ecd341f9e3b5bc5e16bf"
 metafile = true
 
 [[files]]
+file = "mods/configured.pw.toml"
+hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "b6b9e514a420b92d3e8259422fcca1c401879fcba62b8c10f06fac1adabef1f3"
+metafile = true
+
+[[files]]
+file = "mods/corals-tfc.pw.toml"
+hash = "c34d128ec14caa4349c150f3f42e71f0d503739d5c289c679fd8a60f953b7d54"
 metafile = true
 
 [[files]]
@@ -846,6 +865,11 @@ metafile = true
 [[files]]
 file = "mods/create-jei-compat.pw.toml"
 hash = "1c6f373a264d9ff1852349302a681bdc78b9346b51a1abb20d1fed959b5e5bbd"
+metafile = true
+
+[[files]]
+file = "mods/create-molten-vents.pw.toml"
+hash = "198dc94a41237e61ad862bb803a6b5892781209a0f9890881f3f98cd6fce2792"
 metafile = true
 
 [[files]]
@@ -924,6 +948,11 @@ hash = "5238a7dae8028bd3b8db4bb7266d51c35d34d64d7c2d48403ac5dffe25b3b26a"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-block-entities-neoforged.pw.toml"
+hash = "ba19e88c2de56b0dbfc1731333e983dfaf0abb900fe36d1893e0cf70077e6ef5"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "046e7a431340b387dcf11a380a4543bbb18710fe628ad824abe22d40ab50b79e"
 metafile = true
@@ -935,7 +964,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "0999bb91c952b7ea013727b4f5031d663fb8177577bac74a175bbfd60d356e67"
+hash = "d0adc31be18555660560ba36f0ebf079e135a552889b8f7a029ef3052484c569"
 metafile = true
 
 [[files]]
@@ -964,6 +993,31 @@ hash = "e6e67b2ac9a7e128fd304f8222f6a05a60915ef77d03e3574bf5cab51937c25a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "276e79d919c3a698ab2881d784544b7e60bef69b43f44808353bb65d38633cb3"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 hash = "268484128674aec5c55fa679ccd8d8ac749e18cf20542ba8c3b67f8ccedd4b79"
 metafile = true
@@ -981,11 +1035,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "953cca4909a6074b551f755183a26acefb83825e04ea1b614676d4d9ef38f0ed"
-metafile = true
-
-[[files]]
-file = "mods/immersiveengineering.pw.toml"
-hash = "30675cc1c78da3fe770bab4457fa9dc0e6f885ae22ba67fabf0f59f92903dcc8"
 metafile = true
 
 [[files]]
@@ -1029,6 +1078,11 @@ hash = "226652303c40fd8cb914f88b707d379416ffed28589e576faae398eb52606197"
 metafile = true
 
 [[files]]
+file = "mods/kiwi.pw.toml"
+hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "6aa0befe61ce6eb033271ed92b0e89350bbaa61b74f6df7c4c59d1f64cb0e3e2"
 metafile = true
@@ -1045,7 +1099,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-tfc.pw.toml"
-hash = "816af7dc6e450534843b10674ae2b8a432773de340e7f6817d605cc974a0bc07"
+hash = "9c2add9082b66545ed92dc750e3e89f2aecf9c4333ff459dca35350a4c7300df"
 metafile = true
 
 [[files]]
@@ -1055,7 +1109,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+hash = "17b5bef818ac8c504958db422aba2f1cc79979da41a71b0ecb793f85accf30df"
 metafile = true
 
 [[files]]
@@ -1086,6 +1140,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "aebccf191b62a1a51562b84a95028caeada48f69bb9bf2ddb0280c91b1014ceb"
+metafile = true
+
+[[files]]
+file = "mods/lychee.pw.toml"
+hash = "32ca07c5550cd9f6d178e1b6f98f2a8ca6dc6f7359f5a83b5ae03ae89a2ef6a1"
 metafile = true
 
 [[files]]
@@ -1155,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
 metafile = true
 
 [[files]]
@@ -1229,8 +1288,18 @@ hash = "70cf4bfed14fc44d3bb793b6d3a5813bb24f02f92f8c41d18d945a7504ef2f7f"
 metafile = true
 
 [[files]]
+file = "mods/tfc-better-stone-tools.pw.toml"
+hash = "0032a3826f089ad076c72cffc79b36f39e9fcef21607a07025dd41ed78a308de"
+metafile = true
+
+[[files]]
 file = "mods/tfc-canes.pw.toml"
 hash = "d97e57262b0031a5588f70d84d2b89ff9c56ec0d715063eb9d2dd0c1e1e43a63"
+metafile = true
+
+[[files]]
+file = "mods/tfc-debark.pw.toml"
+hash = "796e92651eff0ecbcff557cfeed452dfcfe4c493b179c7529d757dbbccfe1a21"
 metafile = true
 
 [[files]]
@@ -1249,8 +1318,8 @@ hash = "aa701352c621eedbe09537358ee7468227ce711b323865525bbcfacd67963491"
 metafile = true
 
 [[files]]
-file = "mods/tfc-ie-crossover.pw.toml"
-hash = "959eb1c3f2271a72814c78183470810bc4b0f245fa61b0463432641e9c13d8cb"
+file = "mods/tfc-hot-or-not.pw.toml"
+hash = "4a9db562675e8e98ce78904c4b6624edb48136e5080773b13c842967fe44535d"
 metafile = true
 
 [[files]]
@@ -1264,18 +1333,28 @@ hash = "064c022d2cc1f66772b75554f3be056827888154e94e167ae7c9f08e814c7f1b"
 metafile = true
 
 [[files]]
+file = "mods/tfc-metal-tools.pw.toml"
+hash = "8d61e20794d8fd9ccf1bdf847c59e2b0e28f9ce067752e9c1cbe5ec5b4158f12"
+metafile = true
+
+[[files]]
 file = "mods/tfc-more-cans-and-jars.pw.toml"
 hash = "35e09b785a43e32b8d95aa9935a1f08106f95fbd84e061578d84eb966fcb65e0"
 metafile = true
 
 [[files]]
 file = "mods/tfc-more-items.pw.toml"
-hash = "72de0110fa3a5f3d1df20143fce929a1132f3c06a9c54f857fea4e599e9e76a6"
+hash = "18cd193e552df065549daa4b099b1ab1f28b350aedf29d59a2e878874d4fba52"
+metafile = true
+
+[[files]]
+file = "mods/tfc-ore-washing.pw.toml"
+hash = "6dc361fdf47316d4284fd19ab888a5a0f77b10e2915286ee2394898f0c96cf1c"
 metafile = true
 
 [[files]]
 file = "mods/tfc-registry-api.pw.toml"
-hash = "89dee4b2df2a10a5f85aaa7eb2af23c21ef11945a4408e8a2fe0cc9cecd71913"
+hash = "5da5b1be4822ce9825f908ba2b15ab40cd56ae67e9335fc85c2739e8c1a0f63c"
 metafile = true
 
 [[files]]
@@ -1306,4 +1385,9 @@ metafile = true
 [[files]]
 file = "mods/water-flasks.pw.toml"
 hash = "50dac9d9e278e02fa963f8cbf4e4f70728da9a7db0daae0dc8b4a92b86626f38"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cozy-beds.pw.toml"
+hash = "146ff0bb5ec2aff7bbb4299252cfba412dedf51f8b5e283362d128eeb5233289"
 metafile = true
