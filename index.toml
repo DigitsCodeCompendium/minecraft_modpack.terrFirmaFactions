@@ -746,6 +746,18 @@ file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 metafile = true
 
