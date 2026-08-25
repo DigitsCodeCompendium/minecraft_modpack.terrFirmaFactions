@@ -5,6 +5,5 @@ ServerEvents.recipes(event => {
     ],{
         A: 'tfc:metal/pickaxe_head/bronze',
         B: 'minecraft:stick',
-    }
-    )
+    })
 })

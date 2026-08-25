@@ -1,0 +1,6 @@
+{
+  "debug": false,
+  "insert_into_console": true,
+  "deduplicate_self_test_warnings": true,
+  "deduplicate_data_manager_warnings": true
+}
