@@ -758,6 +758,10 @@ file = "mods/ftb-teams-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 metafile = true
 
