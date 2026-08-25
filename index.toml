@@ -813,6 +813,10 @@ hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "b6b9e514a420b92d3e8259422fcca1c401879fcba62b8c10f06fac1adabef1f3"
 metafile = true
@@ -963,6 +967,10 @@ hash = "0222f767345e2f3624b01c700ff09386f602e5787ec05c0d4eb13939000f2ec4"
 metafile = true
 
 [[files]]
+file = "mods/factions.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "d0adc31be18555660560ba36f0ebf079e135a552889b8f7a029ef3052484c569"
 metafile = true
@@ -1015,6 +1023,10 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
 [[files]]
