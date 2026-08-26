@@ -1,0 +1,13 @@
+name = "TFC Better Stone Tools"
+filename = "tfc_stone_tools-1.21.1-neoforge-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c496ecc5548061c2a51c996795be00ff3986de39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7111477
+project-id = 1009792

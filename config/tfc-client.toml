@@ -61,7 +61,7 @@
 	#   KELVIN = Exact Kelvin
 	#   RANKINE = Exact degrees Rankine
 	#Allowed Values: COLOR, CELSIUS, FAHRENHEIT, RANKINE, KELVIN
-	heatTooltipStyle = "COLOR"
+	heatTooltipStyle = "CELSIUS"
 	#
 	# The style to display all external (i.e. climate) temperature in.
 	#   COLOR = Approximate, color based tooltips (like Very Hot**, Brilliant White)
