@@ -1,15 +1,12 @@
-name = "TerraFirmaFactions"
-author = "binaryclock03"
+name = "Minecraft Modpack . Terr Firma Factions"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
+hash = "6ef76cdaf32b677ab37e1272f1c45df7c482e5d531127d80a5e5d0009e3ba1ad"
 
 [versions]
 minecraft = "1.21.1"
 neoforge = "21.1.248"
-
-[options]
-no-internal-hashes = true

@@ -1,0 +1,13 @@
+name = "TFC Ore Washing"
+filename = "tfcorewashing-1.21.1-neoforge-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f3e7a6774c9b439ebec917099c175b6c2bfa7665"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8058503
+project-id = 959262

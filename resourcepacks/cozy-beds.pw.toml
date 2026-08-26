@@ -1,0 +1,13 @@
+name = "Cozy Beds"
+filename = "Cozy_Beds-v1.4-pre1.21.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CBvbD9Yz/versions/jCu2QYdy/Cozy_Beds-v1.4-pre1.21.4.zip"
+hash-format = "sha512"
+hash = "ebed4036aeeb7c893461ec1dd58ac7017280e00a239ac3ed9b8164d08d43dff51b9f157b9ac55c5853022618ef3755a065c86787d840d8626bbdca33608b78df"
+
+[update]
+[update.modrinth]
+mod-id = "CBvbD9Yz"
+version = "jCu2QYdy"

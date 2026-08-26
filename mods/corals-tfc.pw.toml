@@ -1,0 +1,13 @@
+name = "Corals TFC // 1.18.2 // 1.20.1 // 1.21.1 //"
+filename = "coralstfc-1.21.1-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RzMcpTLU/versions/xZpaPLDU/coralstfc-1.21.1-neoforge-1.0.1.jar"
+hash-format = "sha512"
+hash = "bf65ba14c62056043de877ca7be49c4c97fc2bd3f6d0678ad161693d016d38c9c05f40d73d1ae541d19984050abf82d7ef2c62960fbcadda4983f2e13c0831a0"
+
+[update]
+[update.modrinth]
+mod-id = "RzMcpTLU"
+version = "xZpaPLDU"
