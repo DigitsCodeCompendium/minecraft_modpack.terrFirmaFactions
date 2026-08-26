@@ -1093,6 +1093,22 @@ hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 hash = "268484128674aec5c55fa679ccd8d8ac749e18cf20542ba8c3b67f8ccedd4b79"
 metafile = true
