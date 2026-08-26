@@ -794,7 +794,11 @@ hash = "cbeea108a39bbf06c31cb65af056381bf129e87ba4a37ed9a494cca8a9e08334"
 
 [[files]]
 file = "kubejs/server_scripts/smith_recipe.js"
-hash = "2d7053fedc6c655685414e6898300276ad91113db9a8f30f7b46a0c899e2d293"
+hash = "1a7ce4635ea7cd44912eedbd89ecaea8f9ef5a709fb5556ed12a31a184fd4b64"
+
+[[files]]
+file = "kubejs/server_scripts/smith_recipe_lock.js"
+hash = "36a76949fafb8b5ef29a12f3c8527524b706ea61fa458e700c8bfaa6f64a061f"
 
 [[files]]
 file = "kubejs/server_scripts/test.js"
@@ -815,6 +819,21 @@ hash = "bcf81a9c8ed2e06fd4dae505188cd135361b2f7cabeb34085db75a584649e339"
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
+file = "mods/astages-ftb-quests.pw.toml"
+hash = "e4ac0f895424df79e623e4a8ae430ae9d95cb117cfc69877d45210efcf90f1b9"
+metafile = true
+
+[[files]]
+file = "mods/astages-pufferfishs-skills.pw.toml"
+hash = "08bc589208091f4adc88f71ad4602e872a48c6fa41feeba14e3dc43425a60137"
+metafile = true
+
+[[files]]
+file = "mods/astages.pw.toml"
+hash = "e34a7d57f8b0df2a929bd1e69b3244f53d3575ad9be3c9ddc7f9533ab516514b"
 metafile = true
 
 [[files]]
@@ -1098,11 +1117,6 @@ hash = "268484128674aec5c55fa679ccd8d8ac749e18cf20542ba8c3b67f8ccedd4b79"
 metafile = true
 
 [[files]]
-file = "mods/history-stages.pw.toml"
-hash = "aceaeb1ba5ec0ef5672cb365454280f3ecb5cf77c7da1968f985cacf9287834c"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "9ef5b2dd9e027a1dd926c0cb05618a89aa41c60dc05e6334741dc6d1b0f87457"
 metafile = true
@@ -1300,6 +1314,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "18ee3d0aacf035f158fd96b183511a31f3547abb1d85c96be84b9e93154abafa"
+metafile = true
+
+[[files]]
+file = "mods/skills.pw.toml"
+hash = "87ce844ff87267bc95027b95c970c58298d4a6882bb2b620551c8a309f1c8e81"
 metafile = true
 
 [[files]]
