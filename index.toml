@@ -749,8 +749,16 @@ file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iro
 hash = "4752096ccf731b5a8d74b93966e9fc6a14fe0537ab2733a9d449602d12d42c41"
 
 [[files]]
+file = "kubejs/assets/terra/textures/item/unfired_ceremetal.png"
+hash = "f75be895bdedc94a66ce8d74bcd51c2b0b25fbcbafc5a9cf5d60dc584a06c1a7"
+
+[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
+
+[[files]]
+file = "kubejs/client_scripts/renaming.js"
+hash = "74b5a7a55efcf6d38e3cd14de79e5f31faf13f04215ce0ecc5fa0c8b014a2549"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -777,12 +785,24 @@ file = "kubejs/package.json"
 hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
 
 [[files]]
+file = "kubejs/server_scripts/andesite.js"
+hash = "55986cf730b5e7cfafcbbbe76cc95df63ce2127746555f89db3d1fa842ef39bf"
+
+[[files]]
 file = "kubejs/server_scripts/anvil.js"
-hash = "e45b0bd4dfc335cb2bc22739fc765d179a991160dcbc26b03d180b5bd1468154"
+hash = "4d4a556e97699a4944c56d6076ec018ab88f42b15c22cdbf00942bf7a26be2e9"
 
 [[files]]
 file = "kubejs/server_scripts/armorer.js"
-hash = "cc1ab79251ab4c7d7948bd8a7640b99a4b291b7839eafb2e0afcfbff7e78ad03"
+hash = "1a589ec5a2bff2f55f4669a2d1e1f3f532d1b1cf89b7daf5a491f9b580337cf4"
+
+[[files]]
+file = "kubejs/server_scripts/ceremetalhot.js"
+hash = "0b7571b042d9d959c26a2171eaa61a6eac28e9a6d670f3822139493ced1c726d"
+
+[[files]]
+file = "kubejs/server_scripts/donteatraw.js"
+hash = "b768b68b5f3136f1e99932a84521357216cec7eeae226ff4df51a2f1e853ead4"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -790,19 +810,27 @@ hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
 
 [[files]]
 file = "kubejs/server_scripts/new_tags.js"
-hash = "cbeea108a39bbf06c31cb65af056381bf129e87ba4a37ed9a494cca8a9e08334"
+hash = "cc7f859c1e813838062904eda831decff8d92e840a0dc0f2a753b459e0d27a51"
 
 [[files]]
 file = "kubejs/server_scripts/smith_recipe.js"
-hash = "2d7053fedc6c655685414e6898300276ad91113db9a8f30f7b46a0c899e2d293"
+hash = "1708d11856953064fdb5ba9c45ad1b3355a1e6dc19ab4157c7259b283dbe2887"
+
+[[files]]
+file = "kubejs/server_scripts/smith_recipe_lock.js"
+hash = "d7842b6ee98c1eae7431bbc0e3052198cfce68da69d3431f252dcd764769abf9"
 
 [[files]]
 file = "kubejs/server_scripts/test.js"
-hash = "699410459134099ebf4d4affe9ee45a55366f0e7eba3560393f9574a562cf8e7"
+hash = "d03d440275c15ecb01bc0f50b6ddfc10a0d99bb2aed17cdf3f37797284dd2965"
 
 [[files]]
 file = "kubejs/server_scripts/triple_ingot_properties.js"
-hash = "07320d9a923296d5c182cfcad59c38166d83c9a50b165b6cc6f43f9cab7b307a"
+hash = "f84114f5480537ad88edfe9662baa338e0c5068f596f19d2aa0c465a4d1097db"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "b5a8db2e0c68788dfcb9bf0c22b2879408a160356d1ed1dd9e06b540be0f6958"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -810,11 +838,26 @@ hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
 
 [[files]]
 file = "kubejs/startup_scripts/triple_ingot.js"
-hash = "bcf81a9c8ed2e06fd4dae505188cd135361b2f7cabeb34085db75a584649e339"
+hash = "5c710e68aa32b28df2f5e97b87a8ab85a54032f4b7a3d2162503ba7c927fecd5"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
+file = "mods/astages-ftb-quests.pw.toml"
+hash = "e4ac0f895424df79e623e4a8ae430ae9d95cb117cfc69877d45210efcf90f1b9"
+metafile = true
+
+[[files]]
+file = "mods/astages-pufferfishs-skills.pw.toml"
+hash = "08bc589208091f4adc88f71ad4602e872a48c6fa41feeba14e3dc43425a60137"
+metafile = true
+
+[[files]]
+file = "mods/astages.pw.toml"
+hash = "e34a7d57f8b0df2a929bd1e69b3244f53d3575ad9be3c9ddc7f9533ab516514b"
 metafile = true
 
 [[files]]
@@ -874,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "6d407aad66fc24958d5d3a332806703165ec09fc7e1645e984c68a65bb5fd546"
+hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
 
 [[files]]
@@ -1029,7 +1072,7 @@ metafile = true
 
 [[files]]
 file = "mods/factions.pw.toml"
-hash = "3f21cda099a2a9ecd7186e48ac6d7cc37212f0a95528ffa1f36e828ab99f1cc3"
+hash = "7d4f8bb638836c9c1a9896c0568a3cddff9dc6599429353a99eed341e6037d44"
 metafile = true
 
 [[files]]
@@ -1064,7 +1107,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "6673879be88ffe7d02f5d917ffe09ef0c92049104aef7dbae59f6032acaaff8c"
+hash = "e3c62164f1eed254aa04629bce3d62b34a65bf15801d2ffb1bf1373a0b97c544"
 metafile = true
 
 [[files]]
@@ -1079,12 +1122,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
+hash = "6a451ba7022f1afab59b6884ded7e2c533f7d4279738477030d6de496e3de1a4"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
 
 [[files]]
@@ -1093,29 +1136,8 @@ hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
 metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 hash = "268484128674aec5c55fa679ccd8d8ac749e18cf20542ba8c3b67f8ccedd4b79"
-metafile = true
-
-[[files]]
-file = "mods/history-stages.pw.toml"
-hash = "aceaeb1ba5ec0ef5672cb365454280f3ecb5cf77c7da1968f985cacf9287834c"
 metafile = true
 
 [[files]]
@@ -1319,6 +1341,11 @@ hash = "18ee3d0aacf035f158fd96b183511a31f3547abb1d85c96be84b9e93154abafa"
 metafile = true
 
 [[files]]
+file = "mods/skills.pw.toml"
+hash = "87ce844ff87267bc95027b95c970c58298d4a6882bb2b620551c8a309f1c8e81"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "53fdad606bc2f75b9b5212f4f2fe008d0e9469b8d5a60b8be3b68ee34daef232"
 metafile = true
@@ -1385,7 +1412,7 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-electric-fridge.pw.toml"
-hash = "b2f31cf15900e3b0cdba5c83226f98e950fa768552abcdaccf4f9c997c61db2c"
+hash = "27514ac2485ff531912ac4325b4895f8ae8c8cbae4254c31e9fd515bf8c1831c"
 metafile = true
 
 [[files]]
@@ -1420,7 +1447,7 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-more-items.pw.toml"
-hash = "18cd193e552df065549daa4b099b1ab1f28b350aedf29d59a2e878874d4fba52"
+hash = "b11bb5262eceaae7d360f097bfa20c5ae63145860198875671895de2be8537e8"
 metafile = true
 
 [[files]]
