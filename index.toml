@@ -758,7 +758,7 @@ hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
 file = "kubejs/client_scripts/renaming.js"
-hash = "74b5a7a55efcf6d38e3cd14de79e5f31faf13f04215ce0ecc5fa0c8b014a2549"
+hash = "8cae7e35e0d93c82d0e80114f7b10ec867f2ecd50d6d632c9c2a97921e0139c8"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -799,10 +799,6 @@ hash = "1a589ec5a2bff2f55f4669a2d1e1f3f532d1b1cf89b7daf5a491f9b580337cf4"
 [[files]]
 file = "kubejs/server_scripts/ceremetalhot.js"
 hash = "0b7571b042d9d959c26a2171eaa61a6eac28e9a6d670f3822139493ced1c726d"
-
-[[files]]
-file = "kubejs/server_scripts/donteatraw.js"
-hash = "b768b68b5f3136f1e99932a84521357216cec7eeae226ff4df51a2f1e853ead4"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -988,11 +984,6 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ff20587afedd29e22d1a893fe0061845fe5c409d92feb4b8be4052a3ed504855"
-metafile = true
-
-[[files]]
-file = "mods/create-tfc-unofficial-port.pw.toml"
-hash = "84cf09496c2835e92c9d0030d6327f95a69abd4187d234396d2548c1693764d2"
 metafile = true
 
 [[files]]
