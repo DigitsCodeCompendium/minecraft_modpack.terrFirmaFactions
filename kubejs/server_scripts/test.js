@@ -7,3 +7,16 @@ ServerEvents.recipes(event => {
     ]
   )
 })
+
+
+
+ServerEvents.recipes(event => {
+  event.shaped('minecraft:acacia_boat',[
+    '   ',
+    'A A',
+    'BBB'
+  ],{
+A: 'tfc:metal/ingot/blue_steel,',
+B: 'minecraft:bone'})
+  
+})
