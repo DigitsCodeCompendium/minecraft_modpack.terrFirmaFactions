@@ -4,6 +4,10 @@ StartupEvents.registry('item', event => {
     .displayName('Unfired Ceremetal')
     .maxStackSize(32)
 
+    event.create('terra:hardtack_sandwich')
+    .displayName('Hardtack Sandwich')
+    .maxStackSize(32)
 })
+
 
 // hi 
