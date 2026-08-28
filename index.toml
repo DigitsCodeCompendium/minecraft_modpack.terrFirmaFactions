@@ -758,7 +758,7 @@ hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
 file = "kubejs/client_scripts/renaming.js"
-hash = "8cae7e35e0d93c82d0e80114f7b10ec867f2ecd50d6d632c9c2a97921e0139c8"
+hash = "67eb5acf5c6b1d641723fa4f22418b89c42b1288cc57592a773e0bfca4ba038f"
 
 [[files]]
 file = "kubejs/config/client.json"
