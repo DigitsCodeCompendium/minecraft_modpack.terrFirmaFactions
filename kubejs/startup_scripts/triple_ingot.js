@@ -1,0 +1,11 @@
+StartupEvents.registry('item',event =>{
+    event.create('tfc:metal/triple_ingot/copper').displayName('§fCopper Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/copper')
+    event.create('tfc:metal/triple_ingot/bronze').displayName('§fBronze Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/bronze')
+    event.create('tfc:metal/triple_ingot/bismuth_bronze').displayName('§fBismuth Bronze Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/bismuth_bronze')
+    event.create('tfc:metal/triple_ingot/black_bronze').displayName('§fBlack Bronze Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/black_bronze')
+    event.create('tfc:metal/triple_ingot/wrought_iron').displayName('§fWrought Iron Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/wrought_iron')
+    event.create('tfc:metal/triple_ingot/steel').displayName('§eSteel Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/steel')
+    event.create('tfc:metal/triple_ingot/black_steel').displayName('§bBlack Steel Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/black_steel')
+    event.create('tfc:metal/triple_ingot/red_steel').displayName('§dRed Steel Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/red_steel')
+    event.create('tfc:metal/triple_ingot/blue_steel').displayName('§dBlue Steel Triple Ingot').texture('even_more_tfc:item/metal/triple_ingot/blue_steel')
+})

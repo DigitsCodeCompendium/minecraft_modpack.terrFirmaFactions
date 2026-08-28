@@ -1,0 +1,13 @@
+name = "Enhanced Block Entities NEOFORGED"
+filename = "blockentities-[NEOFORGED]-1.21.1+1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HlLmiJmt/versions/Qt6IBri6/blockentities-%5BNEOFORGED%5D-1.21.1%2B1.1.0.jar"
+hash-format = "sha512"
+hash = "5d3012ecebbde78c59fdb1f3ade5217c7948d7db46318bf98b9a05bb21d2841518f1ffd8a7155d18ce4d127f4a791afcca839a2374d62823742fd9e732d4f5d8"
+
+[update]
+[update.modrinth]
+mod-id = "HlLmiJmt"
+version = "Qt6IBri6"

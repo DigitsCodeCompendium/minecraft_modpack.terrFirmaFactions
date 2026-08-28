@@ -3,11 +3,11 @@ filename = "TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/JaCEZUhg/versions/eBIfZlEM/TerraFirmaCraft-NeoForge-1.21.1-4.2.7.jar"
-hash-format = "sha512"
-hash = "f1ebf038aa1b40e4ec61b8f6def476ca51e6d76f1d29ae2af9398eba66080d2da6114716d5a1ae30721aa0dbe29dfbbae44ee671f17bf8110bb0fbff7f59f207"
+hash-format = "sha1"
+hash = "de5824bbba770914d24ac06585b088a4f0640bf3"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "JaCEZUhg"
-version = "eBIfZlEM"
+[update.curseforge]
+file-id = 8566530
+project-id = 302973
