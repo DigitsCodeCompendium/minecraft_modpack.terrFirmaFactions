@@ -565,6 +565,21 @@ file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iro
 file = "kubejs/client_scripts/jsconfig.json"
 
 [[files]]
+file = "kubejs/assets/terra/textures/item/hardtack_sandwich.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/unfired_ceremetal.png"
+
+[[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/client_scripts/renaming.js"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+
+[[files]]
 file = "kubejs/config/client.json"
 
 [[files]]
@@ -605,6 +620,43 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
 file = "kubejs/server_scripts/triple_ingot_properties.js"
+file = "kubejs/server_scripts/frostfolderserver/anvil.js"
+
+[[files]]
+file = "kubejs/server_scripts/frostfolderserver/armorer.js"
+
+[[files]]
+file = "kubejs/server_scripts/frostfolderserver/smith_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/frostfolderserver/smith_recipe_lock.js"
+
+[[files]]
+file = "kubejs/server_scripts/frostfolderserver/triple_ingot_properties.js"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/server_scripts/mepafolderserver/ceremetal saga/andesite.js"
+
+[[files]]
+file = "kubejs/server_scripts/mepafolderserver/ceremetal saga/ceremetalhot.js"
+
+[[files]]
+file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/craftablesandwich.js"
+
+[[files]]
+file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutrition.js"
+
+[[files]]
+file = "kubejs/server_scripts/new_tags.js"
+
+[[files]]
+file = "kubejs/server_scripts/test.js"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
