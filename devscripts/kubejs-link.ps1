@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 <#
 KubeJS Development Symlink Helper
 =================================
