@@ -5,7 +5,7 @@ ServerEvents.recipes(event =>{
 
         [
             ' A ',    
-            ' B ',
+            'BBB',
             ' A '
         ],{
             A: 'firmalife:food/hardtack',

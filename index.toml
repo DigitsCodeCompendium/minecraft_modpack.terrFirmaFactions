@@ -532,6 +532,9 @@ file = "config/waterflasks-common.toml"
 file = "kubejs/README.txt"
 
 [[files]]
+file = "kubejs/assets/create/textures/item/unfinished/copper_backtank.png"
+
+[[files]]
 file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/bismuth.png"
 
 [[files]]
@@ -610,6 +613,12 @@ file = "kubejs/server_scripts/frost/new_tags.js"
 file = "kubejs/server_scripts/frost/triple_ingot_properties.js"
 
 [[files]]
+file = "kubejs/server_scripts/frost/unfinished/copper_backtank.js"
+
+[[files]]
+file = "kubejs/server_scripts/frost/universal_recipe.js"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 
 [[files]]
@@ -634,10 +643,16 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
 file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
+file = "kubejs/server_scripts/profession/smith/smith_recipe_unspecialized.js"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/smithing_unfinished/unfinished.js"
 
 [[files]]
 file = "kubejs/startup_scripts/triple_ingot.js"

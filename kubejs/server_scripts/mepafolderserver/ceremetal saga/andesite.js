@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>{
 
     event.recipes.tfc.heating(
         'terra:unfired_ceremetal',
-        1500
+        800
     )
 
     .itemOutput('create:andesite_alloy')
