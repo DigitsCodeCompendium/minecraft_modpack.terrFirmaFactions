@@ -1195,6 +1195,10 @@ file = "mods/tfc-offset-smoker.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tfc-ore-washing.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tfc-registry-api.pw.toml"
 metafile = true
 
