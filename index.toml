@@ -774,11 +774,11 @@ hash = "274582c847acaf87886438db2decafd76ef46c1f46090d22f2276cb4a4c77c1a"
 
 [[files]]
 file = "kubejs/index.toml"
-hash = "3407af27979b0be973960ac66962f4da29cc87345f2d437c995de2aff10d6321"
+hash = "35b2b91f92ba943c06cc00b10f6f363375d33973cd63873c8ad635e7a3912769"
 
 [[files]]
 file = "kubejs/pack.toml"
-hash = "4808329759075fe0992739ca908220c3e1bbc541005cfdc31a56287a6b0d8ed0"
+hash = "30b6e95e4d7ac37262d8de72296677aba4bf8b0137e8779de3f7b662e4efbfd4"
 
 [[files]]
 file = "kubejs/package.json"
