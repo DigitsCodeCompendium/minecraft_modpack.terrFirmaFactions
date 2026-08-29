@@ -1,0 +1,13 @@
+name = "Survivor's Butchery [TFC x Butchercraft]"
+filename = "survivorsbutchercraft-2.0.6-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83759bb8a18337482034153167cfc7853fd0b5df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8723039
+project-id = 1415827

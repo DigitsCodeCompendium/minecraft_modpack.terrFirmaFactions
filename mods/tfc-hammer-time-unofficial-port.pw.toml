@@ -1,0 +1,13 @@
+name = "TFC Hammer Time: (Unofficial Port)"
+filename = "tfc_hammer_time-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0bc18576bf8648fe8109b750f1f92461d42ed03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7978455
+project-id = 1499600

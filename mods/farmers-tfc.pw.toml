@@ -1,0 +1,13 @@
+name = "Farmers TFC"
+filename = "farmerstfc-2.1.7-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d55b95cff2fbfb7ea23f49d845d067871fba9bef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8700137
+project-id = 1318733
