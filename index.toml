@@ -562,9 +562,6 @@ file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/steel.png"
 file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iron.png"
 
 [[files]]
-file = "kubejs/client_scripts/jsconfig.json"
-
-[[files]]
 file = "kubejs/assets/terra/textures/item/hardtack_sandwich.png"
 
 [[files]]
@@ -604,22 +601,13 @@ file = "kubejs/pack.toml"
 file = "kubejs/package.json"
 
 [[files]]
-file = "kubejs/server_scripts/anvil.js"
+file = "kubejs/server_scripts/frost/anvil.js"
 
 [[files]]
-file = "kubejs/server_scripts/jsconfig.json"
+file = "kubejs/server_scripts/frost/new_tags.js"
 
 [[files]]
-file = "kubejs/server_scripts/new_tags.js"
-
-[[files]]
-file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
-
-[[files]]
-file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
-
-[[files]]
-file = "kubejs/server_scripts/triple_ingot_properties.js"
+file = "kubejs/server_scripts/frost/triple_ingot_properties.js"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -640,7 +628,10 @@ file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutriti
 file = "kubejs/server_scripts/new_tags.js"
 
 [[files]]
-file = "kubejs/server_scripts/test.js"
+file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -785,10 +776,6 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-tfc-unofficial-port.pw.toml"
 metafile = true
 
 [[files]]
@@ -1152,10 +1139,6 @@ file = "mods/tfc-astikor-carts.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-better-stone-tools.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/tfc-canes.pw.toml"
 metafile = true
 
@@ -1209,10 +1192,6 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-offset-smoker.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tfc-ore-washing.pw.toml"
 metafile = true
 
 [[files]]
