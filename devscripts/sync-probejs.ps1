@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 <#
 ProbeJS Development File Sync
 =============================
