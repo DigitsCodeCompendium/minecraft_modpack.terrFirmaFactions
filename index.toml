@@ -620,19 +620,6 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
 file = "kubejs/server_scripts/triple_ingot_properties.js"
-file = "kubejs/server_scripts/frostfolderserver/anvil.js"
-
-[[files]]
-file = "kubejs/server_scripts/frostfolderserver/armorer.js"
-
-[[files]]
-file = "kubejs/server_scripts/frostfolderserver/smith_recipe.js"
-
-[[files]]
-file = "kubejs/server_scripts/frostfolderserver/smith_recipe_lock.js"
-
-[[files]]
-file = "kubejs/server_scripts/frostfolderserver/triple_ingot_properties.js"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
