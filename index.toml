@@ -706,7 +706,7 @@ hash = "be003ee269b00301ed908b06f0728a15a5852fdb4eb026b02930d2957931caf6"
 
 [[files]]
 file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
 file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/bismuth.png"
@@ -750,11 +750,11 @@ hash = "4752096ccf731b5a8d74b93966e9fc6a14fe0537ab2733a9d449602d12d42c41"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
+hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
 
 [[files]]
 file = "kubejs/config/client.json"
-hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+hash = "ffeec24cd6a9e10758c7a22860688ed3c67bc023debf400e129a35d4318a6f7a"
 
 [[files]]
 file = "kubejs/config/common.json"
@@ -762,47 +762,47 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/probe-settings.json"
-hash = "a27589e3dc2de58a0b5d36441f7c27bd288ad4ba990d14b3be6eb9706f86f18b"
+hash = "f87044edd9c89b5a7118d822c3624797a8e06e0ddfccdf92cbf834604db230b8"
 
 [[files]]
 file = "kubejs/config/tfc.json"
-hash = "2b4d60ac12763712fa17019a268b9a831f9c510de78c00e2b8a36b74031a2dbb"
+hash = "35ba70eaa1fd181274d11ee1afc223448b5e9a058bdd764bcb7cc456c7ea98da"
 
 [[files]]
 file = "kubejs/config/web_server.json"
-hash = "8cd1a0c0fc330f9a52024049246ad9c088a742322475c140b74111da9134ccc5"
+hash = "274582c847acaf87886438db2decafd76ef46c1f46090d22f2276cb4a4c77c1a"
+
+[[files]]
+file = "kubejs/index.toml"
+hash = "3407af27979b0be973960ac66962f4da29cc87345f2d437c995de2aff10d6321"
+
+[[files]]
+file = "kubejs/pack.toml"
+hash = "4808329759075fe0992739ca908220c3e1bbc541005cfdc31a56287a6b0d8ed0"
 
 [[files]]
 file = "kubejs/package.json"
-hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
+hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
 
 [[files]]
 file = "kubejs/server_scripts/anvil.js"
 hash = "e45b0bd4dfc335cb2bc22739fc765d179a991160dcbc26b03d180b5bd1468154"
 
 [[files]]
-file = "kubejs/server_scripts/armorer.js"
-hash = "cc1ab79251ab4c7d7948bd8a7640b99a4b291b7839eafb2e0afcfbff7e78ad03"
-
-[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
+hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
 
 [[files]]
 file = "kubejs/server_scripts/new_tags.js"
 hash = "cbeea108a39bbf06c31cb65af056381bf129e87ba4a37ed9a494cca8a9e08334"
 
 [[files]]
-file = "kubejs/server_scripts/smith_recipe.js"
+file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
 hash = "1a7ce4635ea7cd44912eedbd89ecaea8f9ef5a709fb5556ed12a31a184fd4b64"
 
 [[files]]
-file = "kubejs/server_scripts/smith_recipe_lock.js"
+file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 hash = "36a76949fafb8b5ef29a12f3c8527524b706ea61fa458e700c8bfaa6f64a061f"
-
-[[files]]
-file = "kubejs/server_scripts/test.js"
-hash = "699410459134099ebf4d4affe9ee45a55366f0e7eba3560393f9574a562cf8e7"
 
 [[files]]
 file = "kubejs/server_scripts/triple_ingot_properties.js"
@@ -810,7 +810,7 @@ hash = "07320d9a923296d5c182cfcad59c38166d83c9a50b165b6cc6f43f9cab7b307a"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
+hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
 
 [[files]]
 file = "kubejs/startup_scripts/triple_ingot.js"
@@ -872,6 +872,16 @@ hash = "ef152e01559cc3632d62856f57e40ad67cd27e4246b3da85e6a2d6c62dd2b2f9"
 metafile = true
 
 [[files]]
+file = "mods/breaking-bad-paintings.pw.toml"
+hash = "ba01f8497311b0664a8a661d89644b0267216447d61df810a1fb665385073c9b"
+metafile = true
+
+[[files]]
+file = "mods/butchercraft.pw.toml"
+hash = "a7151fdf438a799f2b8e742b205652181655c347560e50b304c2dc855a91c327"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
 hash = "94cbc974f4770fdbd15710a4cea6bca994dfdb84678a152754aa4d4a743e0e20"
 metafile = true
@@ -884,6 +894,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "ef2323b87d1ba4d03d0ee1ab800d06ba6490f45a1b84ecd341f9e3b5bc5e16bf"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -959,6 +974,16 @@ metafile = true
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "6c0a3998d609ced60ed556a5c5805f620aae27809c6e3e4d9e12f5817227d074"
+metafile = true
+
+[[files]]
+file = "mods/create-picky-waterwheels.pw.toml"
+hash = "ae23fada92cbfd86ed42b5ddce601a61d0e9ef7ccb949578f3d0c13640b5328d"
+metafile = true
+
+[[files]]
+file = "mods/create-picky-wheels-tfc-wind.pw.toml"
+hash = "f7ecd4e64b9858061b4898b2b91152fd9763db3531723f3d585051b30e3c1455"
 metafile = true
 
 [[files]]
@@ -1057,13 +1082,13 @@ hash = "d0adc31be18555660560ba36f0ebf079e135a552889b8f7a029ef3052484c569"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight-tfc.pw.toml"
-hash = "a2be287ddb21f641fd63a332d94b205f46285c13aa8c2848d232d0031442a768"
+file = "mods/farmers-delight.pw.toml"
+hash = "748f98aed76975838bd79cb4f5d06eb68aad156394239de5fa70302a02448a5b"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "c03f7fb679748b4c8beb2197a25141d6e222798ef9f1af66b1e17b91452fd316"
+file = "mods/farmers-tfc.pw.toml"
+hash = "fd01fe1262b4e4a8a6ea1c0ece61692193cfc80418991b150736768fe90b2ff2"
 metafile = true
 
 [[files]]
@@ -1098,33 +1123,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
+hash = "a3b850e0ada552aa3f460ada3003c7726292ae39c5a5e09e73816b10b6ea6113"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+hash = "106a6351237699eb6fa9c38b21137b0c7e8d63ca9827a4693117da744faca811"
 metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -1178,8 +1187,23 @@ hash = "54bfec1705ab1c338202d0bbbe5f03f3e29363887b5df2e21898b1ffefd21a4c"
 metafile = true
 
 [[files]]
+file = "mods/joy-of-painting-neo.pw.toml"
+hash = "6ea7c37ab74e9c999f9b3c75bc5a5518daeadb8ee47908926872e9b57f8ed0f0"
+metafile = true
+
+[[files]]
 file = "mods/jupiter.pw.toml"
 hash = "226652303c40fd8cb914f88b707d379416ffed28589e576faae398eb52606197"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-cookery.pw.toml"
+hash = "736320078bdd72041452e9bb1c6efd44859e46b0e5d862dbd814cf48ef5b92aa"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-tfc-cookery.pw.toml"
+hash = "a5c1c92681e4f434d024ae7b40c2540651d4b15de07656cd8238578204c07434"
 metafile = true
 
 [[files]]
@@ -1195,6 +1219,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "ed77efd1e63eafec6bbeea6e53339226f62569c203144efcb7d05c406fdbcf0a"
+metafile = true
+
+[[files]]
+file = "mods/kubas-tfc-additions.pw.toml"
+hash = "7e7bba429bd10dd71cfd96ce83c34ddf21cac226b02458213b3d78d903ff1aa4"
 metafile = true
 
 [[files]]
@@ -1298,6 +1327,11 @@ hash = "c596b810684d3de870f0b629d76a10ae209be81649f5582b982738d1136a0d6b"
 metafile = true
 
 [[files]]
+file = "mods/precision-prospecting.pw.toml"
+hash = "43875e7fc15cd6a10a12e9b6de087f13a0201c1a6d3c9b5f561d39d358f934b9"
+metafile = true
+
+[[files]]
 file = "mods/probejs.pw.toml"
 hash = "4bbc56f6983715ff095638eafab7ca8fee16f602656058b8456e3e8e7f2df918"
 metafile = true
@@ -1305,6 +1339,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "1dfd8edb2bc1e383bd7010a8d8897f1099bbb9ff3f2cf46f79908af478d4dd37"
+metafile = true
+
+[[files]]
+file = "mods/recipe-machine-stages-zs-js.pw.toml"
+hash = "5c3cb5c4ef04cba392182e78d727812e2486053c810f246443517ef9ac500238"
 metafile = true
 
 [[files]]
@@ -1320,6 +1359,11 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "75dcc598339b396de9aaea2896fddc1a8a667cf565905b9f6f8688ed73a4ccae"
+metafile = true
+
+[[files]]
+file = "mods/sdm-stages.pw.toml"
+hash = "f642e5f019c21299d731df500c0f7895d49283124a585ef9b0e0dc410ebf75d9"
 metafile = true
 
 [[files]]
@@ -1343,6 +1387,11 @@ hash = "53fdad606bc2f75b9b5212f4f2fe008d0e9469b8d5a60b8be3b68ee34daef232"
 metafile = true
 
 [[files]]
+file = "mods/snatched.pw.toml"
+hash = "f4336cd0f4a01c6c497ec0fe68fcd1ff3ad4e54f119b28bd6566c5901ecbabbc"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
 metafile = true
@@ -1353,18 +1402,33 @@ hash = "f6b922752736741e222dead919491a7b59946c7424ac3b87d0ceae3f0144e149"
 metafile = true
 
 [[files]]
+file = "mods/starcatcher.pw.toml"
+hash = "0da2ec755206020b9d190132644406df9167d9e9c47d04860a84e341901055ad"
+metafile = true
+
+[[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "eec5885476536fb015de40bb4e358ec6dffa6183166432d33eb53a895e4688d6"
 metafile = true
 
 [[files]]
 file = "mods/survivors-abilities.pw.toml"
-hash = "4283a515473c1da85aa958ba6d9660a5a85dcfa48c31bb7ad76d8adf009c4e40"
+hash = "9158aab21307d91bc67e09819bb435732b3f38a651ff15f31535d3177e443ffb"
+metafile = true
+
+[[files]]
+file = "mods/survivors-butchery-tfc-x-butchercraft.pw.toml"
+hash = "688bd82a3d32bcc4f5014bcb6119e9fa63218fa271ab768dbf1b258df54fe144"
 metafile = true
 
 [[files]]
 file = "mods/tabchannel.pw.toml"
 hash = "a340d1cdde42af128baa9bdca094353ecb695af0ff6400f8045d77d52a22c5c0"
+metafile = true
+
+[[files]]
+file = "mods/terrafirmacraft-anvilhelper.pw.toml"
+hash = "a7d8ec0cbfcd9026c395a2cd9e5e1800bbe67780ae3d600cfacd8a0c8281a134"
 metafile = true
 
 [[files]]
@@ -1375,11 +1439,6 @@ metafile = true
 [[files]]
 file = "mods/terrafirmathings-continued.pw.toml"
 hash = "71471a81c066ce880ca089c2ae117747844d1a64043930509c836970546f28ed"
-metafile = true
-
-[[files]]
-file = "mods/tfc-ambiental.pw.toml"
-hash = "acb0df223341c73a999a7a0adb2a1540d9804da7ef76930a244514ca1d044037"
 metafile = true
 
 [[files]]
@@ -1408,8 +1467,23 @@ hash = "b2f31cf15900e3b0cdba5c83226f98e950fa768552abcdaccf4f9c997c61db2c"
 metafile = true
 
 [[files]]
+file = "mods/tfc-fire-clay-addition.pw.toml"
+hash = "eaca0827e3392358be0dafa863ad65666cca8c6a4ee510d71acefdd324fc1508"
+metafile = true
+
+[[files]]
+file = "mods/tfc-food-processing-compat.pw.toml"
+hash = "11ede3f8f433781c69bd37c968f0c40ece8ca9c24995f86a6909fca4f2e7cf2f"
+metafile = true
+
+[[files]]
 file = "mods/tfc-glass-workshop.pw.toml"
 hash = "aa701352c621eedbe09537358ee7468227ce711b323865525bbcfacd67963491"
+metafile = true
+
+[[files]]
+file = "mods/tfc-hammer-time-unofficial-port.pw.toml"
+hash = "2b2c06ac17ceee804d7e11a4828e47bdd0e86c8f4574a5366ef40e1554fb9d1e"
 metafile = true
 
 [[files]]
@@ -1443,6 +1517,11 @@ hash = "18cd193e552df065549daa4b099b1ab1f28b350aedf29d59a2e878874d4fba52"
 metafile = true
 
 [[files]]
+file = "mods/tfc-offset-smoker.pw.toml"
+hash = "02eaaf4377f383f96802fef5e2b9b2ee7414325d54e6042c7f3bb6020750062c"
+metafile = true
+
+[[files]]
 file = "mods/tfc-ore-washing.pw.toml"
 hash = "6dc361fdf47316d4284fd19ab888a5a0f77b10e2915286ee2394898f0c96cf1c"
 metafile = true
@@ -1473,8 +1552,28 @@ hash = "2774524de816ddb96ae1c7a8c91e7f50753cb932c6215e0943baec376a650173"
 metafile = true
 
 [[files]]
+file = "mods/tfcdraughtworks.pw.toml"
+hash = "f855b29e4031a8639644df9eb77a87bb48a196f95823aa0b152a0a0cf40ed5d6"
+metafile = true
+
+[[files]]
 file = "mods/tfcgenviewer.pw.toml"
 hash = "36af47ffc6c2d08a1aaf12da6c2c11b32f270fcc58c043c04b50c40e2c7cb288"
+metafile = true
+
+[[files]]
+file = "mods/torque-link-create-to-tfc.pw.toml"
+hash = "1fbac130f664167f316e856f6bb88c6e5ae6f79a2b526d63d312fb27d1ed791a"
+metafile = true
+
+[[files]]
+file = "mods/villager-hats.pw.toml"
+hash = "6f713619285ecd927a139ce675f2d340f88063cbc78790f87d6b1b9717f4a7df"
+metafile = true
+
+[[files]]
+file = "mods/wary-predators-for-tfc.pw.toml"
+hash = "9e1a262d3925c50b01894e487c3b64b0697173a4ce4bf4227ca3ad66b0decbd8"
 metafile = true
 
 [[files]]

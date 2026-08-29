@@ -1,0 +1,13 @@
+name = "TerraFirmaCraft AnvilHelper"
+filename = "TerraFirmaCraftAnvilHelper-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "37656d30f040b5c860d84b82d531bb45baaebce1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7011636
+project-id = 1348176
