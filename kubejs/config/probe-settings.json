@@ -1,9 +1,10 @@
 {
     "probejs.newGame": false,
-    "probejs.hintsForLLM": true,
+    "probejs.hintsForLLM": false,
     "probejs.fullScanMods": [
         "minecraft",
         "kubejs",
-        "neoforge"
+        "neoforge",
+        "tfc"
     ]
 }

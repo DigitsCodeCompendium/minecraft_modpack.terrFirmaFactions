@@ -40,5 +40,5 @@
         "../../.probe/@package/**/*.d.ts",
         "../../.probe/@side-only/startup/**/*.d.ts",
         "../../.probe/@special/**/*.d.ts"
-, "../server_scripts/mepafolderserver/perishablesandwich.js"    ]
+    ]
 }
