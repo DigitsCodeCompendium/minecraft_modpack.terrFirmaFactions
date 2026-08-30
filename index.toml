@@ -882,6 +882,10 @@ file = "mods/firmanutrition.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/firmasupplementaries.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
@@ -1094,6 +1098,10 @@ file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/selene.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
@@ -1123,6 +1131,10 @@ metafile = true
 
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
 metafile = true
 
 [[files]]
