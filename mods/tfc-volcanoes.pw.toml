@@ -1,13 +1,13 @@
 name = "TFC Volcanoes"
-filename = "TFCVolcanoes-1.21.1-2.2.jar"
+filename = "TFCVolcanoes-1.21.1-2.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rQG4GU1V/versions/Y4EHBFMi/TFCVolcanoes-1.21.1-2.2.jar"
+url = "https://cdn.modrinth.com/data/rQG4GU1V/versions/jzDrDC80/TFCVolcanoes-1.21.1-2.2.1.jar"
 hash-format = "sha512"
-hash = "c9a1fd24b0a5f463af616623db2dccb38d8d5928268382f48e6fb5ae74dac4f61bf77f45f0b5357b26f09865bcf6082c9d479ba53740d118c1097a90d4e3ebc5"
+hash = "4ced66e889856bc91cfe2ad386c8e758010ff92fea834828f6dfa88164df6664370ca64d57f53f6ab414ffcd7bb22ee421590cda6c80e79430deb03a5fd24b05"
 
 [update]
 [update.modrinth]
 mod-id = "rQG4GU1V"
-version = "Y4EHBFMi"
+version = "jzDrDC80"
