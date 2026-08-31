@@ -1,0 +1,13 @@
+name = "Torque Link Create To TFC"
+filename = "c2tfc-1.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45a100f2bf854dd83ce0d5802f595b578e3c159c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8638215
+project-id = 1481933

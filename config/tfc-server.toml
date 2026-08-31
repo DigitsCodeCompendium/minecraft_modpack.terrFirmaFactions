@@ -609,6 +609,15 @@
 		# Default: 1.0
 		# Range: 0.001 ~ 1000.0
 		cropExpiryModifier = 1.0
+		#
+		# The first month in which wild crops are mature, inclusive.
+		# If this month is later than the end month, the maturity period wraps across the end of the year.
+		#Allowed Values: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+		wildCropMaturityStartMonth = "JUNE"
+		#
+		# The last month in which wild crops are mature, inclusive.
+		#Allowed Values: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+		wildCropMaturityEndMonth = "OCTOBER"
 
 	[blocks.dispenser]
 		#

@@ -1,0 +1,13 @@
+name = "TFCDraughtworks"
+filename = "tfcdraughtworks-neoforge-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a82eee893e99e26405692c12a61d209139a0331"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8296452
+project-id = 1528172

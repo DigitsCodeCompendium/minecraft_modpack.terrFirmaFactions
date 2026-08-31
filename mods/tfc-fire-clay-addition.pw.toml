@@ -1,0 +1,13 @@
+name = "TFC: Fire Clay Addition"
+filename = "tfc_fire_clay_addition-1.21.1-neoforge-0.1.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86ea4b5605acb5404c301fc8131dea53fedf87a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7828885
+project-id = 1496953

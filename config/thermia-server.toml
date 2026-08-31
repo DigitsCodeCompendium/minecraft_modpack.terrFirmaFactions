@@ -67,16 +67,12 @@
 [environment_temperature]
 	#Max heating applied by sun
 	# Default: 32.0
-	# Range: 0.0 ~ 48.0
+	# Range: 0.0 ~ 64.0
 	maxSolarHeating = 32.0
 	#Evaporative cooling multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0
 	evapCoolingMulti = 1.0
-	#Solar radiation multiplier
-	# Default: 1.0
-	# Range: 0.0 ~ 2.0
-	solarRadiationMulti = 1.0
 	#Drying multiplier
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0
@@ -85,7 +81,21 @@
 	# Default: 1.0
 	# Range: 0.5 ~ 10.0
 	interiorSourceMulti = 1.0
+	#Interior ventilation curve, Higher and interiors are more ventilated, Lower is less ventilated.
+	# Default: 8.0
+	# Range: 1.0 ~ 16.0
+	interiorVentCurve = 8.0
+	#Interior wind factor. Higher and wind matters more for interior leakiness, lower is less.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	interiorWindFactor = 0.2
+	#Interior solar heating multiplier. Higher values mean more solar heating, lower is less.
+	# Default: 32.0
+	# Range: 0.0 ~ 64.0
+	interiorSolarMulti = 32.0
 
 [server_misc]
 	#Disable TFC's temperature dependant thirst.
 	overrideTFCTempThirst = true
+	#Toggles server sending data for client debug render
+	serverEnableDebug = false
