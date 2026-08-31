@@ -850,9 +850,6 @@ file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/craftablesandwi
 file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutrition.js"
 
 [[files]]
-file = "kubejs/server_scripts/new_tags.js"
-
-[[files]]
 file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
 
 [[files]]
