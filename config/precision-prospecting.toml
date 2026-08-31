@@ -1,0 +1,53 @@
+[prospector-hammer]
+	#Tank capacity for the Prospector's Hammer Mold
+	# Default: 200
+	# Range: 0 ~ 2147483645
+	prosHammerMoldCapacity = 200
+	#The primary radius of Prospector's Hammers
+	# Default: 6
+	# Range: 0 ~ 25
+	prosHammerPrimaryRadius = 6
+	#The secondary radius of Prospector's Hammers
+	# Default: 6
+	# Range: 0 ~ 25
+	prosHammerSecondaryRadius = 6
+	#The displacement of Prospector's Hammers
+	# Default: 0
+	# Range: 0 ~ 25
+	prosHammerDisplacement = 0
+
+[prospector-drill]
+	#Tank capacity for the Prospector's Drill Mold
+	# Default: 400
+	# Range: 0 ~ 2147483645
+	prosDrillMoldCapacity = 400
+	#The primary radius of Prospector's Drills
+	# Default: 3
+	# Range: 0 ~ 25
+	prosDrillPrimaryRadius = 3
+	#The secondary radius of Prospector's Drills
+	# Default: 12
+	# Range: 0 ~ 25
+	prosDrillSecondaryRadius = 12
+	#The displacement of Prospector's Drills
+	# Default: 10
+	# Range: 0 ~ 25
+	prosDrillDisplacement = 10
+
+[mineral-prospector]
+	#Tank capacity for the Mineral Prospector Mold
+	# Default: 200
+	# Range: 0 ~ 2147483645
+	minProsMoldCapacity = 200
+	#The primary radius of Mineral Prospectors
+	# Default: 22
+	# Range: 0 ~ 25
+	minProsPrimaryRadius = 22
+	#The secondary radius of Mineral Prospectors
+	# Default: 22
+	# Range: 0 ~ 25
+	minProsSecondaryRadius = 22
+	#The displacement of Mineral Prospectors
+	# Default: 0
+	# Range: 0 ~ 25
+	minProsDisplacement = 0

@@ -1,0 +1,25 @@
+[painting]
+	#If true, painting consumes paint charge stored in the palette. Refill the palette by crafting it with dyes.
+	dyeCostEnabled = false
+	#Paint charge one dye adds to its OWN colour when crafted onto a palette (charge is tracked per basic colour).
+	# Default: 256
+	# Range: 1 ~ 1000000
+	chargePerDye = 256
+	#Maximum paint charge a palette can hold PER basic colour.
+	# Default: 4096
+	# Range: 1 ~ 1000000
+	maxCharge = 4096
+
+[import]
+	#If false, the /paintimport command is disabled entirely.
+	importEnabled = true
+	#If true, only operators (see importOpLevel) may use /paintimport. Prevents arbitrary image injection on public servers.
+	importRequiresOp = false
+	#Permission level required to import when importRequiresOp is true.
+	# Default: 2
+	# Range: 0 ~ 4
+	importOpLevel = 2
+
+[trades]
+	#If true, adds cartographer and wandering trader trades for canvases and paintings.
+	villagerTradesEnabled = true

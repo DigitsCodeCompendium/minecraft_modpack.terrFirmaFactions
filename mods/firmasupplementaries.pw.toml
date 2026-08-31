@@ -1,0 +1,13 @@
+name = "FirmaSupplementaries"
+filename = "firmasupps-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59708009a85fa88e558dc0b9bce4c2ab017f4fbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7306091
+project-id = 1332517

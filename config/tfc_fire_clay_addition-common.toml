@@ -1,0 +1,11 @@
+#the fluid capacity of thermal vessel (mB)
+# Default: 3000
+# Range: > 1
+thermal_vessel_fluid_capacity = 3000
+#the slot capacity of thermal vessel
+# Default: 4
+# Range: 1 ~ 64
+thermal_vessel_slot_capacity = 4
+#The largest (inclusive) size of an item that is allowed in a small vessel.
+#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
+thermal_vessel_maximum_item_size = "LARGE"
