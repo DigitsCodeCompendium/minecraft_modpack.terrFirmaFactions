@@ -1,0 +1,20 @@
+## 
+## Number of ticks required for a candle holder to burn out (1000 = 1 in game hour = 50 seconds), default is 384 hours. Set to -1 to disable candle holder burnout.
+# Default: 384000
+# Range: > -1
+candleHolderTicks = 384000
+## 
+## Number of ticks required for a sconce to burn out (1000 = 1 in game hour = 50 seconds), default is 144 hours. Set to -1 to disable sconce burnout.
+# Default: 144000
+# Range: > -1
+sconceTicks = 144000
+## 
+## Number of ticks required for a fire pit to burn out (1000 = 1 in game hour = 50 seconds), default is 120 hours. Set to -1 to disable fire pit burnout.
+# Default: 120000
+# Range: > -1
+firePitTicks = 120000
+## 
+## Multiplier for nutrients added to planters, default is 1.25. Set to 1 to make planters equivalent to regular farmland
+# Default: 1.25
+# Range: 1.0 ~ 3.4028234663852886E38
+planterNutrientMultiplier = 1.25

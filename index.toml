@@ -40,10 +40,28 @@ file = "config/advancedtfctech-client.toml"
 file = "config/advancedtfctech-server.toml"
 
 [[files]]
+file = "config/astages/astages-client.toml"
+
+[[files]]
+file = "config/astages/astages-common.toml"
+
+[[files]]
 file = "config/astikorcartsredux-client.toml"
 
 [[files]]
 file = "config/astikorcartsredux-common.toml"
+
+[[files]]
+file = "config/auroras-startup.toml"
+
+[[files]]
+file = "config/auroras/aether.json"
+
+[[files]]
+file = "config/auroras/overworld.json"
+
+[[files]]
+file = "config/auroras/the_end.json"
 
 [[files]]
 file = "config/azimuth-client.toml"
@@ -58,6 +76,12 @@ file = "config/better-advanced-tooltips-client.toml"
 file = "config/blockrunner-client.toml"
 
 [[files]]
+file = "config/butchercraft-common.toml"
+
+[[files]]
+file = "config/c2tfc-common.toml"
+
+[[files]]
 file = "config/chatanimation.json"
 
 [[files]]
@@ -65,6 +89,12 @@ file = "config/chloride-client.json"
 
 [[files]]
 file = "config/chunky/config.json"
+
+[[files]]
+file = "config/configured-client.properties"
+
+[[files]]
+file = "config/connector.json"
 
 [[files]]
 file = "config/create-client.toml"
@@ -98,6 +128,9 @@ file = "config/create_dragons_plus-server.toml"
 
 [[files]]
 file = "config/create_factory_logistics-server.toml"
+
+[[files]]
+file = "config/create_pickywheels_tfc_wind-server.toml"
 
 [[files]]
 file = "config/create_power_loader-server.toml"
@@ -136,6 +169,9 @@ file = "config/createoreexcavation-common.toml"
 file = "config/createoreexcavation-server.toml"
 
 [[files]]
+file = "config/createpickywheels-common.toml"
+
+[[files]]
 file = "config/createvintageneoforged-client.toml"
 
 [[files]]
@@ -152,6 +188,12 @@ file = "config/curios-common.toml"
 
 [[files]]
 file = "config/curios-server.toml"
+
+[[files]]
+file = "config/decay_2012-client.toml"
+
+[[files]]
+file = "config/decay_2012-server.toml"
 
 [[files]]
 file = "config/delightfulcreators-server.toml"
@@ -172,6 +214,9 @@ file = "config/easy_factions-server.toml"
 file = "config/efwarborn-server.toml"
 
 [[files]]
+file = "config/enhanced_bes.properties"
+
+[[files]]
 file = "config/entityculling.json"
 
 [[files]]
@@ -182,6 +227,9 @@ file = "config/exposure-common.toml"
 
 [[files]]
 file = "config/exposure-server.toml"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -241,6 +289,9 @@ file = "config/farmersdelight-client.toml"
 file = "config/farmersdelight-common.toml"
 
 [[files]]
+file = "config/farmerstfc-common.toml"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 
 [[files]]
@@ -250,10 +301,43 @@ file = "config/firmalife-server.toml"
 file = "config/firmanutrition-server.toml"
 
 [[files]]
+file = "config/firmasupps-server.toml"
+
+[[files]]
+file = "config/flywheel-client-1.toml.bak"
+
+[[files]]
 file = "config/flywheel-client.toml"
 
 [[files]]
 file = "config/fml.toml"
+
+[[files]]
+file = "config/ftblibrary-client.snbt"
+
+[[files]]
+file = "config/ftbquests-client.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/choose_your_profession.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/journey_to_master_smith.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/primitive_age.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+
+[[files]]
+file = "config/ftbteams-server.snbt"
+
+[[files]]
+file = "config/ftbxmodcompat.snbt"
 
 [[files]]
 file = "config/hexcasting-client.toml"
@@ -343,6 +427,18 @@ file = "config/journeymaptfcintegration-client.toml"
 file = "config/jupiter.json"
 
 [[files]]
+file = "config/kaleidoscope_cookery-client.toml"
+
+[[files]]
+file = "config/kaleidoscope_cookery-common.toml"
+
+[[files]]
+file = "config/kiwi-client.yaml"
+
+[[files]]
+file = "config/kiwi-common.yaml"
+
+[[files]]
 file = "config/konkrete/locals/de_de.local"
 
 [[files]]
@@ -355,16 +451,82 @@ file = "config/konkrete/locals/pl_pl.local"
 file = "config/konkrete/locals/pt_br.local"
 
 [[files]]
+file = "config/ktfcc-common.toml"
+
+[[files]]
+file = "config/kubastfca-common.toml"
+
+[[files]]
 file = "config/lambdynlights.toml"
 
 [[files]]
+file = "config/libtooltips-client.toml"
+
+[[files]]
 file = "config/lithium.properties"
+
+[[files]]
+file = "config/lootr-client.toml"
+
+[[files]]
+file = "config/lootr-common.toml"
+
+[[files]]
+file = "config/lychee-common.yaml"
 
 [[files]]
 file = "config/modernfix-common.toml"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/molten_vents-common.toml"
+
+[[files]]
+file = "config/molten_vents/conductive/asurine.json"
+
+[[files]]
+file = "config/molten_vents/conductive/crimsite.json"
+
+[[files]]
+file = "config/molten_vents/conductive/ochrum.json"
+
+[[files]]
+file = "config/molten_vents/conductive/scorchia.json"
+
+[[files]]
+file = "config/molten_vents/conductive/scoria.json"
+
+[[files]]
+file = "config/molten_vents/conductive/veridium.json"
+
+[[files]]
+file = "config/molten_vents/convertible/asurine.json"
+
+[[files]]
+file = "config/molten_vents/convertible/crimsite.json"
+
+[[files]]
+file = "config/molten_vents/convertible/ochrum.json"
+
+[[files]]
+file = "config/molten_vents/convertible/scorchia.json"
+
+[[files]]
+file = "config/molten_vents/convertible/scoria.json"
+
+[[files]]
+file = "config/molten_vents/convertible/veridium.json"
+
+[[files]]
+file = "config/molten_vents/custom_blocks.json"
+
+[[files]]
+file = "config/moonlight-client.toml"
+
+[[files]]
+file = "config/moonlight-common.toml"
 
 [[files]]
 file = "config/neoforge-client.toml"
@@ -385,6 +547,12 @@ file = "config/patchouli-client.toml"
 file = "config/ponder-client.toml"
 
 [[files]]
+file = "config/precision-prospecting.toml"
+
+[[files]]
+file = "config/puffish_skills/config.json"
+
+[[files]]
 file = "config/ritchiesprojectilelib-server.toml"
 
 [[files]]
@@ -394,10 +562,19 @@ file = "config/sable-client.toml"
 file = "config/sable-common.toml"
 
 [[files]]
+file = "config/selling_bin-client.toml"
+
+[[files]]
+file = "config/selling_bin-server.toml"
+
+[[files]]
 file = "config/sliceanddice-client.toml"
 
 [[files]]
 file = "config/sliceanddice-common.toml"
+
+[[files]]
+file = "config/snatched_config_-5277158511244451204.json"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -416,6 +593,21 @@ file = "config/spark/tmp-client/about.txt"
 
 [[files]]
 file = "config/spark/tmp/about.txt"
+
+[[files]]
+file = "config/starcatcher-client.toml"
+
+[[files]]
+file = "config/starcatcher-server.toml"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+
+[[files]]
+file = "config/survivorsabilities-common.toml"
 
 [[files]]
 file = "config/tabchannel-common.toml"
@@ -445,6 +637,9 @@ file = "config/tfc-client.toml"
 file = "config/tfc-common.toml"
 
 [[files]]
+file = "config/tfc-server-1.toml.bak"
+
+[[files]]
 file = "config/tfc-server.toml"
 
 [[files]]
@@ -455,6 +650,9 @@ file = "config/tfc_eratosthenes-common-1.toml.bak"
 
 [[files]]
 file = "config/tfc_eratosthenes-common.toml"
+
+[[files]]
+file = "config/tfc_fire_clay_addition-common.toml"
 
 [[files]]
 file = "config/tfc_ie_addon-server.toml"
@@ -481,10 +679,16 @@ file = "config/tfcfridge-common.toml"
 file = "config/tfcgenviewer-client.toml"
 
 [[files]]
+file = "config/tfchotornot-startup.toml"
+
+[[files]]
 file = "config/tfcthings-common.toml"
 
 [[files]]
 file = "config/tfcvolcanoes-client.toml"
+
+[[files]]
+file = "config/tfcvolcanoes-startup-1.toml.bak"
 
 [[files]]
 file = "config/tfcvolcanoes-startup.toml"
@@ -499,7 +703,13 @@ file = "config/tfmg-server.toml"
 file = "config/thermia-client.toml"
 
 [[files]]
+file = "config/thermia-server-1.toml.bak"
+
+[[files]]
 file = "config/thermia-server.toml"
+
+[[files]]
+file = "config/tinymultiblocklib-client.toml"
 
 [[files]]
 file = "config/transition.json"
@@ -526,7 +736,13 @@ file = "config/voicechat/voicechat-client.properties"
 file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
+file = "config/warypredators-common.toml"
+
+[[files]]
 file = "config/waterflasks-common.toml"
+
+[[files]]
+file = "config/xercapaint-server.toml"
 
 [[files]]
 file = "kubejs/README.txt"

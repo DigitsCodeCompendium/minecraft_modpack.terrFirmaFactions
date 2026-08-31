@@ -1,0 +1,6 @@
+# 
+#Stress impact of stress converter. (default 64)
+#应力转换器的应力影响
+# Default: 64.0
+# Range: 0.0 ~ 1.7976931348623157E308
+stressImpact = 64.0
