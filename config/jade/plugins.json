@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "tfcdraughtworks": {
+    "animal_quern_inventory": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -69,8 +72,14 @@
     "entity": true,
     "entity_variant": true
   },
-  "immersiveengineering": {
-    "multiblock_icon": true
+  "ftbquests": {
+    "barrier": true
+  },
+  "ktfcc": {
+    "decaying": true,
+    "stove": true,
+    "mugwort": true,
+    "tea_tree": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -105,7 +114,6 @@
     "solar_drier": true,
     "pot": true,
     "oven_bottom": true,
-    "fruit_tree_sapling": true,
     "jarbnet": true,
     "hanger": true
   },
@@ -122,6 +130,7 @@
     "frog": true,
     "vane": true,
     "camel": true,
+    "armadillo": true,
     "sapling": true,
     "rabbit": true,
     "composter": true,
@@ -172,12 +181,32 @@
     "wet_concrete": true,
     "ingot_pile": true
   },
+  "survivorsbutchercraft": {
+    "meat_hook": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "farmerstfc": {
+    "decaying": true,
+    "cake": true,
+    "stove": true,
+    "crate": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
   },
   "tfcthings": {
     "snare": true,
@@ -186,8 +215,17 @@
     "grindstone_base": true,
     "grain_pile": true
   },
-  "tfcelectriccooking": {
-    "electric_oven": true,
-    "electric_soup_pot": true
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "astages": {
+    "block_component_provider": true
+  },
+  "firmasupps": {
+    "candle_holder": true,
+    "sconce": true,
+    "fire_pit": true,
+    "sconce_lever": true,
+    "sconce_wall": true
   }
 }

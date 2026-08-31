@@ -1,0 +1,308 @@
+#Predators (bears, big cats, wolves/hyenas/direwolves, crocodiles). 'Enable Predator
+#Gate' turns the whole predator system on or off; the defaults apply to any predator not
+#listed individually; each species below overrides those defaults.
+[predators]
+	#Master toggle. If false, ALL predators behave exactly as vanilla TFC (attack on sight).
+	predatorsEnabled = true
+	#Fallback provoke distance (blocks) for any predator not listed individually.
+	# Default: 8.0
+	# Range: 0.5 ~ 64.0
+	defaultProvokeDistance = 8.0
+	#Fallback attack chance (0.0-1.0) once a player is within provoke distance.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	defaultAttackChance = 1.0
+	#Fallback per-second chance (0.0-1.0) to disengage from a player mid-hunt. 0 disables.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	defaultBreakOffChance = 0.0
+
+	[predators.grizzly_bear]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 6.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 6.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.9
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.02
+
+	[predators.black_bear]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 4.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 4.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.15
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.05
+
+	[predators.polar_bear]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 12.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 12.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		attackChance = 1.0
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.0
+
+	[predators.cougar]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 5.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.75
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.05
+
+	[predators.panther]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 5.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.75
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.05
+
+	[predators.lion]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 7.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 7.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.85
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.02
+
+	[predators.sabertooth]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 9.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 9.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.95
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.95
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.0
+
+	[predators.tiger]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 9.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 9.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.95
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.95
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.0
+
+	[predators.crocodile]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 5.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.95
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.95
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.0
+
+	[predators.wolf]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 3.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 3.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.15
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.1
+
+	[predators.hyena]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 5.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.4
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.05
+
+	[predators.direwolf]
+		#Provoke distance in blocks - how close a player must be before this animal considers attacking.
+		# Default: 6.0
+		# Range: 0.5 ~ 64.0
+		provokeDistance = 6.0
+		#Attack chance (0.0-1.0) once the player is within provoke distance.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		attackChance = 0.6
+		#Per-second chance (0.0-1.0) to break off an attack on a player mid-hunt. 0 disables.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		breakOffChance = 0.02
+
+#Ramming animals (boar, moose, wildebeest, bison) use TFC's charge/ram AI, not the
+#predator hunt AI, so they are configured separately here. 'Ram Distance' is how close
+#a player must be before the animal considers charging; 'Ram Chance' is how likely it
+#commits once you're in range. Being hit always provokes instantly regardless.
+[rammers]
+	#Master toggle. If false, ALL ramming animals behave exactly as vanilla TFC (no gating).
+	rammersEnabled = true
+	#If true, a ramming animal that a player hits (melee OR thrown weapon) will turn and charge
+	#that player back, at any range, ignoring the wariness distance/chance gate for a while.
+	#This is a realism addition on top of vanilla TFC, which normally never retaliates to ranged hits.
+	rammersRetaliate = true
+	#How long (seconds) a provoked ramming animal keeps pursuing the player who hit it.
+	# Default: 12.0
+	# Range: 1.0 ~ 120.0
+	rammersRetaliateSeconds = 12.0
+	#Fallback ram distance (blocks) for any ramming animal not listed individually.
+	# Default: 6.0
+	# Range: 0.5 ~ 64.0
+	defaultRamDistance = 6.0
+	#Fallback ram chance (0.0-1.0) for any ramming animal not listed individually.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	defaultRamChance = 0.7
+
+	[rammers.boar]
+		#Ram distance in blocks - how close a player must be before this animal considers charging.
+		# Default: 8.0
+		# Range: 0.5 ~ 64.0
+		ramDistance = 8.0
+		#Ram chance (0.0-1.0) once the player is within ram distance.
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		ramChance = 0.85
+
+	[rammers.moose]
+		#Ram distance in blocks - how close a player must be before this animal considers charging.
+		# Default: 6.0
+		# Range: 0.5 ~ 64.0
+		ramDistance = 6.0
+		#Ram chance (0.0-1.0) once the player is within ram distance.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		ramChance = 0.75
+
+	[rammers.bison]
+		#Ram distance in blocks - how close a player must be before this animal considers charging.
+		# Default: 5.0
+		# Range: 0.5 ~ 64.0
+		ramDistance = 5.0
+		#Ram chance (0.0-1.0) once the player is within ram distance.
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		ramChance = 0.8
+
+	[rammers.wildebeest]
+		#Ram distance in blocks - how close a player must be before this animal considers charging.
+		# Default: 3.0
+		# Range: 0.5 ~ 64.0
+		ramDistance = 3.0
+		#Ram chance (0.0-1.0) once the player is within ram distance.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		ramChance = 0.15
+
+#Passive livestock that defend themselves with a short, escalating burst when a player
+#attacks them (melee or thrown), instead of only fleeing. Being hit refreshes the window.
+[defenders]
+	#Master toggle. Default OFF - this is opt-in. When true, cow/yak/musk ox/goat/pig
+	#defend themselves; when false they only flee, exactly like vanilla TFC.
+	defendersEnabled = true
+	#Base defensive-burst length (seconds). Each new hit the player lands refreshes it.
+	# Default: 4.5
+	# Range: 1.0 ~ 60.0
+	defendersBurstSeconds = 4.5
+	#Familiarity at or above which a livestock animal will NOT fight back - it trusts you and
+	#just flees like vanilla. TFC familiarity runs 0.0-1.0; 0.3 is where an animal is bonded
+	#enough to breed. Below this, half-wild or barely-tamed animals still defend themselves.
+	#Set above 1.0 to make even fully-tame animals fight back.
+	# Default: 0.3
+	# Range: 0.0 ~ 2.0
+	defendersFamiliarityThreshold = 0.3
+
+	[defenders.cow]
+		#Whether this animal fights back when attacked.
+		enabled = true
+		#Damage this animal deals to the player per defensive blow (half-hearts x2 = one heart per 2.0).
+		# Default: 3.0
+		# Range: 0.0 ~ 40.0
+		hitDamage = 3.0
+
+	[defenders.yak]
+		#Whether this animal fights back when attacked.
+		enabled = true
+		#Damage this animal deals to the player per defensive blow (half-hearts x2 = one heart per 2.0).
+		# Default: 3.0
+		# Range: 0.0 ~ 40.0
+		hitDamage = 3.0
+
+	[defenders.musk_ox]
+		#Whether this animal fights back when attacked.
+		enabled = true
+		#Damage this animal deals to the player per defensive blow (half-hearts x2 = one heart per 2.0).
+		# Default: 4.0
+		# Range: 0.0 ~ 40.0
+		hitDamage = 4.0
+
+	[defenders.goat]
+		#Whether this animal fights back when attacked.
+		enabled = true
+		#Damage this animal deals to the player per defensive blow (half-hearts x2 = one heart per 2.0).
+		# Default: 2.0
+		# Range: 0.0 ~ 40.0
+		hitDamage = 2.0
+
+	[defenders.pig]
+		#Whether this animal fights back when attacked.
+		enabled = true
+		#Damage this animal deals to the player per defensive blow (half-hearts x2 = one heart per 2.0).
+		# Default: 2.0
+		# Range: 0.0 ~ 40.0
+		hitDamage = 2.0

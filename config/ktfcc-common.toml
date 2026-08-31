@@ -1,0 +1,26 @@
+# 
+#A value about flatulence effect add movement when shift key down. (default 0)
+#在胀气效果下，当玩家下蹲时给玩家加的移动速度
+# Default: 0.0
+# Range: 0.0 ~ 0.75
+flatulenceAddFlyMovement = 0.0
+# 
+#Turn on or turn off food tooltips
+#开启或关闭食物tooltip
+foodTooltips = true
+# 
+#Turn on or turn off Farmer's Delight compat
+#开关农夫乐事兼容
+farmersDelightCompat = true
+# 
+#Dynamic nutrient value cap about soup or dish. (default 5)
+#汤与炒菜的动态营养值上限
+# Default: 5.0
+# Range: 0.0 ~ 100.0
+maxDynamicNutrient = 5.0
+# 
+#Dynamic nutrient multiplier value about soup or dish.
+#汤与炒菜的营养乘数
+# Default: 0.8
+# Range: 0.0 ~ 1.0
+dynamicNutrientMultiplier = 0.8
