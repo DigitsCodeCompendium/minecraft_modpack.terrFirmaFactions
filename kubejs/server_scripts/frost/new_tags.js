@@ -5,3 +5,9 @@ ServerEvents.tags('item', event => {
         event.add(`c:triple_ingots/${metal}`, `tfc:metal/triple_ingot/${metal}`)
         });
     })
+
+ServerEvents.tags('item', event => {
+    event.add('tfcthings:sharpenable', '#c:tools')
+    event.add('tfcthings:sharpness_mining_tools', '#c:tools')
+    event.add('tfcthings:sharpness_weapons', '#c:tools')
+  })

@@ -823,10 +823,10 @@ file = "kubejs/package.json"
 file = "kubejs/server_scripts/frost/anvil.js"
 
 [[files]]
-file = "kubejs/server_scripts/frost/new_tags.js"
+file = "kubejs/server_scripts/frost/metal_properties.js"
 
 [[files]]
-file = "kubejs/server_scripts/frost/triple_ingot_properties.js"
+file = "kubejs/server_scripts/frost/new_tags.js"
 
 [[files]]
 file = "kubejs/server_scripts/frost/unfinished/copper_backtank.js"
@@ -853,6 +853,9 @@ file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutriti
 file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
 
 [[files]]
+file = "kubejs/server_scripts/profession/smith/smith_recipe_addon.js"
+
+[[files]]
 file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
@@ -863,6 +866,9 @@ file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/sledgehammer_excavator_durability.js"
 
 [[files]]
 file = "kubejs/startup_scripts/smithing_unfinished/unfinished.js"
