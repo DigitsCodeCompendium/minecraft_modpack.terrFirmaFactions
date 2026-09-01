@@ -14,7 +14,6 @@ ServerEvents.recipes(event =>{
     )
 
     event.remove({output: 'create:andesite_alloy'})
-    event.remove({output: 'create_tfc_unofficial_port:moltenandesitealloy'})
 
     event.recipes.tfc.heating(
         'terra:unfired_ceremetal',
