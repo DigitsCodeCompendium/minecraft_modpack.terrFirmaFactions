@@ -21,3 +21,9 @@ ServerEvents.recipes(event => {
         .id(`precisionprospecting:crafting/metal/mineral_prospector/${metal}_specialized`)
     })
 })
+
+ServerEvents.recipes(event => {
+    const brickType = ['granite','diorite','gabbro','shale','claystone','limestone','conglomerate','dolomite','chert','chalk','tuff','rhyolite','basalt','andesite','dacite','quartzite','slate','phyllite','schist','gneiss','marble']
+    brickType.forEach(type => {
+        event.recipes.create.sandpaper_polishing('tfcthings:whetstone', `tfc:brick/${type}`)
+        })})
