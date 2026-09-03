@@ -1230,10 +1230,6 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/loading-profiler.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 metafile = true
 
