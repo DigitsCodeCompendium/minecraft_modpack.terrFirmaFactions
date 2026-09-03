@@ -105,4 +105,9 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -i ~/.ssh/tfc_deploy \
             binary-server@100.88.59.97 \
-            "powershell.exe -NoProfile -Command `"wsl -d Ubuntu -u binary-server -- bash -lc 'cd ~/minecraft-dev && echo SERVER_VERSION=${{ github.sha }} > .env && docker compose pull && docker compose up -d'`""
+            "wsl -d Ubuntu -u binary-server -- bash -s" <<'EOF'
+          cd ~/minecraft-dev
+          echo "SERVER_VERSION=${{ github.sha }}" > .env
+          docker compose pull
+          docker compose up -d
+          EOF
