@@ -1,3 +1,4 @@
+/*
 ItemEvents.modification(event => {
     const metals = [
         ['copper',2500],
@@ -16,3 +17,4 @@ ItemEvents.modification(event => {
         event.modify(`tfc_hammer_time:metal/excavator/${metal}`, item => {
             item.maxDamage = durability;
         })})})
+*/
