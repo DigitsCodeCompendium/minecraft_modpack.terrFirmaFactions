@@ -59,3 +59,7 @@ RUN mkdir -p /server \
 FROM itzg/minecraft-server:java21
 
 COPY --from=pack-installer /server /pack-template
+
+COPY --chmod=755 docker/sync-pack.sh /sync-pack.sh
+
+ENTRYPOINT ["/sync-pack.sh"]
