@@ -4,6 +4,9 @@ hash-format = "sha256"
 file = ".dockerignore"
 
 [[files]]
+file = ".github/workflows/dev-server.yml"
+
+[[files]]
 file = "README.md"
 
 [[files]]
@@ -421,12 +424,6 @@ file = "config/jei/world/local/New World (2)/lookupHistory.json"
 file = "config/jei/world/local/New World/lookupHistory.json"
 
 [[files]]
-file = "config/jei/world/local/buh/lookupHistory.json"
-
-[[files]]
-file = "config/jei/world/server/Minecraft Server (minecraft_digitalgames_ca)/lookupHistory.json"
-
-[[files]]
 file = "config/journeymap-server.toml"
 
 [[files]]
@@ -583,9 +580,6 @@ file = "config/sliceanddice-client.toml"
 file = "config/sliceanddice-common.toml"
 
 [[files]]
-file = "config/snatched_config_-5216816109932813918.json"
-
-[[files]]
 file = "config/snatched_config_-5277158511244451204.json"
 
 [[files]]
@@ -626,9 +620,6 @@ file = "config/tabchannel-common.toml"
 
 [[files]]
 file = "config/tabchannel/hud_layout.json"
-
-[[files]]
-file = "config/tabchannel/mp_minecraft.digitalgames.ca_minecraft_server.json"
 
 [[files]]
 file = "config/tabchannel/mp_singleplayer.json"
@@ -1275,6 +1266,10 @@ file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/neo-origins.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -1284,10 +1279,6 @@ metafile = true
 
 [[files]]
 file = "mods/origins-js.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/origins-neoforge.pw.toml"
 metafile = true
 
 [[files]]
