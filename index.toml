@@ -745,6 +745,9 @@ file = "config/waterflasks-common.toml"
 file = "config/xercapaint-server.toml"
 
 [[files]]
+file = "docker/Dockerfile"
+
+[[files]]
 file = "kubejs/README.txt"
 
 [[files]]
@@ -809,12 +812,6 @@ file = "kubejs/config/tfc.json"
 
 [[files]]
 file = "kubejs/config/web_server.json"
-
-[[files]]
-file = "kubejs/index.toml"
-
-[[files]]
-file = "kubejs/pack.toml"
 
 [[files]]
 file = "kubejs/package.json"
@@ -1401,10 +1398,6 @@ file = "mods/tfc-fire-clay-addition.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-food-processing-compat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/tfc-glass-workshop.pw.toml"
 metafile = true
 
@@ -1434,10 +1427,6 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-more-items.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tfc-ore-washing.pw.toml"
 metafile = true
 
 [[files]]
