@@ -3,13 +3,21 @@
 # ---------------------------------------------------------
 FROM golang:1.25 AS packwiz-builder
 
-RUN go install github.com/packwiz/packwiz@latest
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN git clone --depth 1 https://github.com/packwiz/packwiz.git /src/packwiz
+
+WORKDIR /src/packwiz
+
+RUN go build -o /usr/local/bin/packwiz .
 
 WORKDIR /pack
 
 COPY . .
 
-RUN /go/bin/packwiz refresh --build
+RUN packwiz refresh --build
 
 
 # ---------------------------------------------------------
