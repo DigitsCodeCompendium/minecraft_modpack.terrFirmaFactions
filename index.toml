@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".dockerignore"
+
+[[files]]
 file = "README.md"
 
 [[files]]
@@ -748,6 +751,9 @@ file = "config/xercapaint-server.toml"
 file = "docker/Dockerfile"
 
 [[files]]
+file = "docker/sync-pack.sh"
+
+[[files]]
 file = "kubejs/README.txt"
 
 [[files]]
@@ -1055,6 +1061,10 @@ metafile = true
 
 [[files]]
 file = "mods/delightful-creators.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/discord-integration.pw.toml"
 metafile = true
 
 [[files]]
