@@ -108,6 +108,9 @@ jobs:
             "wsl -d Ubuntu -u binary-server -- bash -s" <<'EOF'
           cd ~/minecraft-dev
           echo "SERVER_VERSION=${{ github.sha }}" > .env
+
+          export DOCKER_CONFIG="$HOME/.docker-ghcr"
+
           docker compose pull
           docker compose up -d
           EOF
