@@ -71,38 +71,38 @@ jobs:
             ${{ steps.image.outputs.name }}:dev
 
     deploy:
-    name: Deploy to dev server
-    if: github.event_name == 'push'
-    needs: publish
-    runs-on: ubuntu-latest
+      name: Deploy to dev server
+      if: github.event_name == 'push'
+      needs: publish
+      runs-on: ubuntu-latest
 
-    steps:
-      - name: Connect to Tailscale
-        uses: tailscale/github-action@v4
-        with:
-          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
-          tags: tag:ci
+      steps:
+        - name: Connect to Tailscale
+          uses: tailscale/github-action@v4
+          with:
+            oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+            oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+            tags: tag:ci
 
-      - name: Configure SSH
-        shell: bash
-        run: |
-          mkdir -p ~/.ssh
+        - name: Configure SSH
+          shell: bash
+          run: |
+            mkdir -p ~/.ssh
 
-          echo "${{ secrets.DEV_SERVER_SSH_KEY }}" > ~/.ssh/tfc_deploy
-          chmod 600 ~/.ssh/tfc_deploy
+            echo "${{ secrets.DEV_SERVER_SSH_KEY }}" > ~/.ssh/tfc_deploy
+            chmod 600 ~/.ssh/tfc_deploy
 
-          cat >> ~/.ssh/known_hosts <<'EOF'
-          100.88.59.97 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAbx7YTeNdPCqsoHRvLvVemeXeL3NKjOwvTBZDrctPwP
-          EOF
+            cat >> ~/.ssh/known_hosts <<'EOF'
+            100.88.59.97 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAbx7YTeNdPCqsoHRvLvVemeXeL3NKjOwvTBZDrctPwP
+            EOF
 
-          chmod 600 ~/.ssh/known_hosts
+            chmod 600 ~/.ssh/known_hosts
 
-      - name: Deploy server
-        shell: bash
-        run: |
-          ssh \
-            -o StrictHostKeyChecking=yes \
-            -i ~/.ssh/tfc_deploy \
-            binary-server@100.88.59.97 \
-            "powershell.exe -NoProfile -Command `"wsl -d Ubuntu -u binary-server -- bash -lc 'cd ~/minecraft-dev && echo SERVER_VERSION=${{ github.sha }} > .env && docker compose pull && docker compose up -d'`""
+        - name: Deploy server
+          shell: bash
+          run: |
+            ssh \
+              -o StrictHostKeyChecking=yes \
+              -i ~/.ssh/tfc_deploy \
+              binary-server@100.88.59.97 \
+              "powershell.exe -NoProfile -Command `"wsl -d Ubuntu -u binary-server -- bash -lc 'cd ~/minecraft-dev && echo SERVER_VERSION=${{ github.sha }} > .env && docker compose pull && docker compose up -d'`""
