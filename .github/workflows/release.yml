@@ -1,0 +1,39 @@
+name: Release Modpack
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Export and release modpack
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        shell: bash
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Export Modrinth pack
+        shell: bash
+        run: packwiz modrinth export -o "terra-firma-factions-${GITHUB_REF_NAME}.mrpack"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: terra-firma-factions-${{ github.ref_name }}.mrpack
