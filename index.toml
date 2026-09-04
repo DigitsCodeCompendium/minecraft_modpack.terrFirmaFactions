@@ -1278,10 +1278,6 @@ file = "mods/numismatics.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/origins-js.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 metafile = true
 
