@@ -25,8 +25,10 @@ jobs:
       - name: Install packwiz
         shell: bash
         run: |
-          go install github.com/packwiz/packwiz@latest
-          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+          git clone --depth 1 https://github.com/packwiz/packwiz.git "$RUNNER_TEMP/packwiz-src"
+          cd "$RUNNER_TEMP/packwiz-src"
+          go build -o "$RUNNER_TEMP/packwiz" .
+          echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
 
       - name: Export Modrinth pack
         shell: bash
