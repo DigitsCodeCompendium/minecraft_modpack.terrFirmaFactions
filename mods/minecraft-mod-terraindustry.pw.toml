@@ -1,0 +1,15 @@
+name = "minecraft_mod.terraIndustry"
+filename = "terraindustry-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/DigitsCodeCompendium/minecraft_mod.terraIndustry/releases/download/v0.0.1/terraindustry-0.0.1.jar"
+hash-format = "sha256"
+hash = "d769ad8a17009e7bb669ff20f5567d259235dbc6918af6d4e0e6bdc22a4e8428"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "DigitsCodeCompendium/minecraft_mod.terraIndustry"
+tag = "v0.0.1"
