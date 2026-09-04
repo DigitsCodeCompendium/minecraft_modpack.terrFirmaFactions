@@ -751,6 +751,12 @@ file = "config/waterflasks-common.toml"
 file = "config/xercapaint-server.toml"
 
 [[files]]
+file = "datapacks/neoorigins_dwarf_datapack.zip"
+
+[[files]]
+file = "datapacks/neoorigins_elf_datapack.zip"
+
+[[files]]
 file = "docker/Dockerfile"
 
 [[files]]
