@@ -1,0 +1,105 @@
+#Disable all resource bars (mana, stamina, rage, etc.) globally.
+#When true, resource bars are hidden from the HUD and any active
+#power that would normally cost a resource falls back to costing
+#hunger instead (resource_cost_amount food points are deducted).
+#Useful for packs that prefer vanilla hunger as the universal cost.
+disable_resource_bars = false
+#Disable night-vision globally.
+#When true, any power that would apply the minecraft:night_vision
+#effect (the neoorigins:night_vision / persistent_effect path) is
+#suppressed: the player's screen is never brightened by the effect.
+#Other effects on the same power still apply; only night_vision is
+#stripped. Useful for packs that want darkness to stay threatening.
+disable_night_vision = false
+#Disable enhanced-vision (low-light brightness boost) globally.
+#When true, the neoorigins:enhanced_vision capability is never sent
+#to clients, so the client-side brightness-curve boost (cat eyes,
+#salamander, oculus drone, etc.) stays off. Independent of the
+#night-vision toggle above. These are two separate mechanisms.
+disable_enhanced_vision = false
+
+#Enable or disable built-in origins.
+#Set to false to hide an origin from the selection screen.
+#Disabled origins can still be assigned via /neoorigins set.
+#Datapack and originpack origins are not affected by these toggles.
+[origins]
+	human = true
+	merling = false
+	avian = true
+	blazeling = false
+	elytrian = false
+	enderian = false
+	arachnid = false
+	shulk = false
+	phantom = false
+	feline = false
+	golem = false
+	caveborn = false
+	sylvan = false
+	draconic = false
+	revenant = false
+	tiny = false
+	abyssal = false
+	voidwalker = false
+	stoneguard = false
+	verdant = false
+	umbral = false
+	inchling = false
+	sporeling = false
+	frostborn = false
+	strider = false
+	siren = false
+	piglin = false
+	hiveling = false
+	cinderborn = false
+	sculkborn = false
+	enderite = false
+	necromancer = false
+	gorgon = false
+	automaton = false
+	kraken = false
+	warden = false
+	dwarf = true
+	breeze = false
+	vampire = false
+	air_mage = false
+	darkness_mage = false
+	earth_mage = false
+	fire_mage = false
+	gravity_mage = false
+	water_mage = false
+	monster_tamer = false
+	skeleton = false
+	slime = false
+	wraith = false
+	asura = false
+	windwalker = false
+	qi_cultivator = false
+	golden_body = false
+	iron_monk = false
+	sword_immortal = false
+
+#Enable or disable built-in classes.
+#Set to false to remove a class from the selection screen.
+#If all classes are disabled, the class selection screen is skipped entirely.
+[classes]
+	class_warrior = false
+	class_archer = false
+	class_miner = false
+	class_beastmaster = false
+	class_explorer = false
+	class_sentinel = false
+	class_herbalist = false
+	class_scout = false
+	class_berserker = false
+	class_titan = false
+	class_rogue = false
+	class_lumberjack = false
+	class_blacksmith = false
+	class_cook = false
+	class_merchant = false
+	class_cleric = false
+	class_nitwit = false
+	class_fisher = false
+	class_mason = false
+	class_paladin = false
