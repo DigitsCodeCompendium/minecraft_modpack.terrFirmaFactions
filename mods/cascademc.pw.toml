@@ -1,0 +1,13 @@
+name = "cascade"
+filename = "cascade-neoforge-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9w6KBche/versions/LfH9MMyP/cascade-neoforge-1.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "1b6ce9238f1ef0e9e9f980359b1d3d84fb8e60e5f954ccf29caf194c3865701dcd3e7725f8f1cc796e7e7e54c6db7e9f71f853c62d95bca83ec8f98209577533"
+
+[update]
+[update.modrinth]
+mod-id = "9w6KBche"
+version = "LfH9MMyP"
