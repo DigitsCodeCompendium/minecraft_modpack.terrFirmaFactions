@@ -899,10 +899,6 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/astages-ftb-quests.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/astages-pufferfishs-skills.pw.toml"
 metafile = true
 
@@ -987,19 +983,11 @@ file = "mods/create-bullet-train.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-central-kitchen.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-connected.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-dragons-plus.pw.toml"
 metafile = true
 
 [[files]]
@@ -1015,14 +1003,6 @@ file = "mods/create-jei-compat.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-molten-vents.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-ore-excavation.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-picky-waterwheels.pw.toml"
 metafile = true
 
@@ -1035,19 +1015,11 @@ file = "mods/create-power-loader.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-tfmg.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-threaded-trains.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/create-train-parts.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-train-physics.pw.toml"
 metafile = true
 
 [[files]]
@@ -1079,10 +1051,6 @@ file = "mods/decay-2012.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/delightful-creators.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/discord-integration.pw.toml"
 metafile = true
 
@@ -1107,14 +1075,6 @@ file = "mods/fancymenu.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/farmers-tfc.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 metafile = true
 
@@ -1132,26 +1092,6 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-filter-system.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -1239,23 +1179,11 @@ file = "mods/kubejs-tfc.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-tfmg.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-brewery-farmcharm-compat.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
 metafile = true
 
 [[files]]
@@ -1375,10 +1303,6 @@ file = "mods/spark.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/starcatcher.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/strut-your-stuff.pw.toml"
 metafile = true
 
@@ -1495,17 +1419,9 @@ file = "mods/torque-link-create-to-tfc.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/villager-hats.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/wary-predators-for-tfc.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/water-flasks.pw.toml"
-metafile = true
-
-[[files]]
-file = "resourcepacks/cozy-beds.pw.toml"
 metafile = true
