@@ -7,6 +7,9 @@ file = ".dockerignore"
 file = ".github/workflows/dev-server.yml"
 
 [[files]]
+file = ".github/workflows/release.yml"
+
+[[files]]
 file = "README.md"
 
 [[files]]
@@ -944,6 +947,10 @@ file = "mods/caelus.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cascademc.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chatanimation.pw.toml"
 metafile = true
 
@@ -1148,6 +1155,10 @@ file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 metafile = true
 
@@ -1264,6 +1275,14 @@ file = "mods/melody.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/minecraft-mod-terraindustry.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/minecraft-mod-terraskills.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
@@ -1281,10 +1300,6 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/origins-js.pw.toml"
 metafile = true
 
 [[files]]
