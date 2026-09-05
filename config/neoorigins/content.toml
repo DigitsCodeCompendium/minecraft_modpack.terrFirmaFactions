@@ -1,18 +1,18 @@
 #Disable all resource bars (mana, stamina, rage, etc.) globally.
-#When false, resource bars are hidden from the HUD and any active
+#When true, resource bars are hidden from the HUD and any active
 #power that would normally cost a resource falls back to costing
 #hunger instead (resource_cost_amount food points are deducted).
 #Useful for packs that prefer vanilla hunger as the universal cost.
 disable_resource_bars = false
 #Disable night-vision globally.
-#When false, any power that would apply the minecraft:night_vision
+#When true, any power that would apply the minecraft:night_vision
 #effect (the neoorigins:night_vision / persistent_effect path) is
 #suppressed: the player's screen is never brightened by the effect.
 #Other effects on the same power still apply; only night_vision is
 #stripped. Useful for packs that want darkness to stay threatening.
 disable_night_vision = false
 #Disable enhanced-vision (low-light brightness boost) globally.
-#When false, the neoorigins:enhanced_vision capability is never sent
+#When true, the neoorigins:enhanced_vision capability is never sent
 #to clients, so the client-side brightness-curve boost (cat eyes,
 #salamander, oculus drone, etc.) stays off. Independent of the
 #night-vision toggle above. These are two separate mechanisms.
@@ -23,9 +23,9 @@ disable_enhanced_vision = false
 #Disabled origins can still be assigned via /neoorigins set.
 #Datapack and originpack origins are not affected by these toggles.
 [origins]
-	human = false
+	human = true
 	merling = false
-	avian = false
+	avian = true
 	blazeling = false
 	elytrian = false
 	enderian = false
@@ -59,7 +59,7 @@ disable_enhanced_vision = false
 	automaton = false
 	kraken = false
 	warden = false
-	dwarf = false
+	dwarf = true
 	breeze = false
 	vampire = false
 	air_mage = false
