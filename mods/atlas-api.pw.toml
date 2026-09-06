@@ -1,0 +1,13 @@
+name = "Atlas Api"
+filename = "atlas_api-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7e9kzq9t/versions/IkS0pyUg/atlas_api-1.21.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "90a9946a544bf97932bb48bc1cc757ad698b71008da780ee0113a1896c19cb2811d0fb705756c8df5d8a792f31ba97f00e3988ac04bb71c70b8837a0baa275a3"
+
+[update]
+[update.modrinth]
+mod-id = "7e9kzq9t"
+version = "IkS0pyUg"
