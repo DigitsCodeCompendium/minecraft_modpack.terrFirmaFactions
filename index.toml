@@ -1239,6 +1239,10 @@ file = "mods/paucal.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/perma-death.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/precision-prospecting.pw.toml"
 metafile = true
 
